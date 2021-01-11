@@ -1,4 +1,4 @@
 package medicalconsultation;
 
-public class TakingGuideline {
+final public class TakingGuideline {
 }

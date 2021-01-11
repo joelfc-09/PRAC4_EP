@@ -1,5 +1,5 @@
 package medicalconsultation;
 
-public class Posology {
+final public class Posology {
     //TODO
 }
