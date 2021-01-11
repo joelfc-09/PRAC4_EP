@@ -31,9 +31,23 @@ class HealthCardIDTest {
     }
 
     @Test
-    public void HealthCard_Test() {
-        HealthCardID id = new HealthCardID("67890023X");
+    public void HealthCardObject_Test() {
+        HealthCardID card = new HealthCardID("67890023X");
         Object id_expected = new Object();
-        assertNotEquals(id, id_expected);
+        assertNotEquals(card, id_expected);
+    }
+
+    @Test
+    public void equalsFunctionTest() {
+        HealthCardID id = new HealthCardID("67890023X");
+        HealthCardID id_2 = new HealthCardID("67890023X");
+        assertTrue(id.equals(id_2));
+    }
+
+    @Test
+    public void notEqualsFunctionTest() {
+        HealthCardID id = new HealthCardID("67890023X");
+        HealthCardID id_2 = new HealthCardID("67890023R");
+        assertFalse(id.equals(id_2));
     }
 }

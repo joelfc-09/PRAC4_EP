@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b5b7dbf-2418-4d34-9379-29bf9a8a2c7d" name="Default Changelist" comment="" />
+    <list default="true" id="5b5b7dbf-2418-4d34-9379-29bf9a8a2c7d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/HealtNationalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medicalconsultation/Posology.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medicalconsultation/TakingGuideline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/ConsultationTerminal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/data/HealthCardIDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/data/HealthCardIDTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -33,6 +41,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,7 +51,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -53,6 +62,17 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.HealthCardIDTest">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HealthCardIDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRAC4_FarréGarcia" />
       <extension name="coverage">
@@ -154,52 +174,22 @@
       <workItem from="1609095202172" duration="397000" />
       <workItem from="1609095905318" duration="2000" />
       <workItem from="1609096042122" duration="16000" />
+      <workItem from="1610389959121" duration="897000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="0" y="98" key="#Project_Structure" timestamp="1608916069360">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="0" y="98" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1608916069360" />
-    <state x="1120" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1609095272116">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1120" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609095272116" />
-    <state x="300" y="265" key="FileChooserDialogImpl" timestamp="1608916050824">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="300" y="265" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608916050824" />
-    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1608917850153">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608917850153" />
-    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1608917850153">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608917850153" />
-    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1608917850153">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608917850153" />
-    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1608917850153">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608917850153" />
-    <state x="0" y="98" key="SettingsEditor" timestamp="1609096054907">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="0" y="98" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609096054907" />
-    <state x="185" y="415" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1608916083867">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="185" y="415" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1608916083867" />
-    <state x="251" y="294" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1608916085232">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="251" y="294" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608916085232" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
