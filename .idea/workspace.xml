@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b5b7dbf-2418-4d34-9379-29bf9a8a2c7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/data/DigitalSignatureTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/HealthNationalService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/ScheduledVisitAgenda.java" afterDir="false" />
+    <list default="true" id="5b5b7dbf-2418-4d34-9379-29bf9a8a2c7d" name="Default Changelist" comment="DigitalSignature fet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HealtNationalService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/DigitalSignature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/DigitalSignature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/medicalconsultation/Posology.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medicalconsultation/Posology.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/medicalconsultation/TakingGuideline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medicalconsultation/TakingGuideline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/ConsultationTerminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsultationTerminal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/data/DigitalSignatureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/data/DigitalSignatureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/HealthNationalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/HealthNationalService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +61,28 @@
       <recent name="data" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HealthCardIDTest">
+  <component name="RunManager" selected="JUnit.DigitalSignatureTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DigitalSignatureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRAC4_FarréGarcia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data" />
+      <option name="MAIN_CLASS_NAME" value="data.DigitalSignatureTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,22 +99,6 @@
       <option name="PACKAGE_NAME" value="data" />
       <option name="MAIN_CLASS_NAME" value="data.HealthCardIDTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HealthCardIDTest.HealthCardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PRAC4_FarréGarcia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.HealthCardIDTest" />
-      <option name="METHOD_NAME" value="HealthCardTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DigitalSignatureTest" />
         <item itemvalue="JUnit.HealthCardIDTest" />
         <item itemvalue="JUnit.HealthCardIDTest.HealthCard_TestV2" />
         <item itemvalue="JUnit.HealthCardIDTest.getPersonalID_TestV4" />
         <item itemvalue="JUnit.HealthCardIDTest.getPersonalID_TestV3" />
-        <item itemvalue="JUnit.HealthCardIDTest.HealthCardTest" />
       </list>
     </recent_temporary>
   </component>
@@ -180,8 +173,16 @@
       <workItem from="1609095202172" duration="397000" />
       <workItem from="1609095905318" duration="2000" />
       <workItem from="1609096042122" duration="16000" />
-      <workItem from="1610389959121" duration="1758000" />
+      <workItem from="1610389959121" duration="2952000" />
     </task>
+    <task id="LOCAL-00001" summary="DigitalSignature fet">
+      <created>1610391757417</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610391757417</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,5 +198,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DigitalSignature fet" />
+    <option name="LAST_COMMIT_MESSAGE" value="DigitalSignature fet" />
   </component>
 </project>

@@ -1,7 +1,7 @@
 package services; // Package for involved services
 /**
  * External service for managing and storing ePrescriptions from population
- */
+
 public interface HealthNationalService {
     MedicalPrescription getePrescription(HealthCardID hcID)
             throws HealthCardException, NotValidePrescriptionException,
@@ -14,4 +14,5 @@ public interface HealthNationalService {
             throws ConnectException, NotValidePrescription, eSignatureException,
             NotCompletedMedicalPrescription;
 }
+*/
 
