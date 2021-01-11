@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5b5b7dbf-2418-4d34-9379-29bf9a8a2c7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HealtNationalService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medicalconsultation/Posology.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medicalconsultation/TakingGuideline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/ConsultationTerminal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/data/HealthCardIDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/data/HealthCardIDTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PRAC4_FarréGarcia.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PRAC4_FarréGarcia.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/ProductID.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +77,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HealthCardIDTest">
+  <component name="RunManager" selected="JUnit.ProductIDTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -88,22 +104,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HealthCardIDTest.HealthCardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PRAC4_FarréGarcia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.HealthCardIDTest" />
-      <option name="METHOD_NAME" value="HealthCardTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HealthCardIDTest.HealthCard_TestV2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRAC4_FarréGarcia" />
       <extension name="coverage">
@@ -115,22 +115,6 @@
       <option name="PACKAGE_NAME" value="data" />
       <option name="MAIN_CLASS_NAME" value="data.HealthCardIDTest" />
       <option name="METHOD_NAME" value="HealthCard_TestV2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HealthCardIDTest.getPersonalID_TestV3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PRAC4_FarréGarcia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.HealthCardIDTest" />
-      <option name="METHOD_NAME" value="getPersonalID_TestV3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,13 +136,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductIDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRAC4_FarréGarcia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data" />
+      <option name="MAIN_CLASS_NAME" value="data.ProductIDTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductIDTest.getProductID_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRAC4_FarréGarcia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data" />
+      <option name="MAIN_CLASS_NAME" value="data.ProductIDTest" />
+      <option name="METHOD_NAME" value="getProductID_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductIDTest" />
+        <item itemvalue="JUnit.ProductIDTest.getProductID_Test" />
         <item itemvalue="JUnit.HealthCardIDTest" />
         <item itemvalue="JUnit.HealthCardIDTest.HealthCard_TestV2" />
         <item itemvalue="JUnit.HealthCardIDTest.getPersonalID_TestV4" />
-        <item itemvalue="JUnit.HealthCardIDTest.getPersonalID_TestV3" />
-        <item itemvalue="JUnit.HealthCardIDTest.HealthCardTest" />
       </list>
     </recent_temporary>
   </component>
@@ -191,5 +206,48 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="935" y="277" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1610387600797">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="935" y="277" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1610387600797" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1610389508282">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610389508282" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1610389508282">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610389508282" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1610389508282">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610389508282" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1610389508282">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610389508282" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1610389061676">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610389061676" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1610389061676">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1610389061676" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1610389061676">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1610389061676" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1610389061676">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1610389061676" />
+    <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1610388833575">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1610388833575" />
   </component>
 </project>
