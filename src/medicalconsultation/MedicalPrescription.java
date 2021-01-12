@@ -3,6 +3,7 @@ package medicalconsultation;
 import data.DigitalSignature;
 import data.HealthCardID;
 import data.ProductID;
+import java.util.Date;
 
 public class MedicalPrescription {
     private int prescCode;
@@ -11,7 +12,12 @@ public class MedicalPrescription {
     private HealthCardID hcID;
     private DigitalSignature eSign;
 
-    public MedicalPrescription(){ }
+    public MedicalPrescription(){
+        this.prescCode = prescCode;
+        this.prescDate = new Date();
+        this.endDate = new Date();
+        this.hcID = hcID;
+    }
 
     public void addLine(ProductID prodID, String[] instruc){ } throws ProductNotInPrescription, IncorrectTakingGuidelinesException;
 
