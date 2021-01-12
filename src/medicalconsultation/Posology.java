@@ -1,5 +1,10 @@
 package medicalconsultation;
 
-final public class Posology {
-    //TODO
+public class Posology {
+
+    private float dose;
+    private float freq;
+    private FqUnit freqUnit;
+
+    public Posology (float d, float f, FqUnit u){ }
 }
