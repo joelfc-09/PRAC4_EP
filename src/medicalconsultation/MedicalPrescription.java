@@ -13,7 +13,7 @@ public class MedicalPrescription {
     private DigitalSignature eSign;
 
     public MedicalPrescription(){
-        this.prescCode = prescCode;
+        this.prescCode = ;
         this.prescDate = new Date();
         this.endDate = new Date();
         this.hcID = hcID;
