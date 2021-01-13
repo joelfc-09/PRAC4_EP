@@ -1,6 +1,5 @@
 package medicalconsultation;
 
-
 final public class TakingGuideline {
 
     private dayMoment dMoment;
@@ -9,17 +8,16 @@ final public class TakingGuideline {
     private Posology posology;
 
     public TakingGuideline (dayMoment dM, float du, String i, float d, float f, FqUnit u){
-
         this.dMoment = dM;
         this.duration = du;
         this.instructions = i;
-        this.posology = posology;
+        this.posology = new Posology(d, f, u);
     }
 
     public dayMoment getdMoment(){
         return dMoment;
     }
-    public float getDuration(){
+    public float getdDuration(){
         return duration;
     }
     public String getInstructions(){

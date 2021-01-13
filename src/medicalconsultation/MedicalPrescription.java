@@ -1,8 +1,8 @@
 package medicalconsultation;
 
-import data.DigitalSignature;
-import data.HealthCardID;
-import data.ProductID;
+import data.*;
+import exceptions.ProductNotInPrescription;
+
 import java.util.Date;
 
 public class MedicalPrescription {
@@ -12,14 +12,26 @@ public class MedicalPrescription {
     private HealthCardID hcID;
     private DigitalSignature eSign;
 
+    //TODO Its components, that is, the set of medical prescription lines
+
     public MedicalPrescription(){
-        this.prescCode = ;
+        this.prescCode = prescCode;
         this.prescDate = new Date();
         this.endDate = new Date();
         this.hcID = hcID;
     }
 
-    public void addLine(ProductID prodID, String[] instruc){ } throws ProductNotInPrescription, IncorrectTakingGuidelinesException;
+    public void addLine(ProductID prodID, String[] instruc){
+        //TODO
+    }
 
-    public void removeLine(ProductID proID){ } throws ProductNotInPrescription;
+    public void modifyLine(ProductID prodID, String instruct) throws ProductNotInPrescription {
+        //TODO
+    }
+
+    public void removeLine(ProductID proID) throws ProductNotInPrescription {
+        //TODO
+    }
+
+    //TODO the getters and setters
 }

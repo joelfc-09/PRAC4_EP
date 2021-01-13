@@ -1,6 +1,13 @@
 package services; // Package for involved services
 
- /* External service for managing and storing ePrescriptions from population */
+import exceptions.*;
+import data.*;
+import medicalconsultation.*;
+
+import java.net.ConnectException;
+import java.util.List;
+
+/* External service for managing and storing ePrescriptions from population */
 
 public interface HealthNationalService {
     MedicalPrescription getePrescription(HealthCardID hcID) throws HealthCardException, NotValidePrescriptionException,
@@ -10,5 +17,3 @@ public interface HealthNationalService {
     MedicalPrescription sendePrescription(MedicalPrescription ePresc) throws ConnectException, NotValidePrescription, eSignatureException,
             NotCompletedMedicalPrescription;
 }
-
-

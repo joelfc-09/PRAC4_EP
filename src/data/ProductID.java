@@ -28,4 +28,3 @@ final public class ProductID {
         return "ProductID{" + "personal code='" + productID + '\'' + '}';
     }
 }
-
