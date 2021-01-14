@@ -5,6 +5,7 @@ import exceptions.IncorrectTakingGuidelinesException;
 import exceptions.ProductNotInPrescription;
 
 import java.util.Date;
+import java.util.HashMap;
 
 public class MedicalPrescription {
     private int prescCode;
@@ -25,6 +26,8 @@ public class MedicalPrescription {
     public void addLine(ProductID prodID, String[] instruc) throws IncorrectTakingGuidelinesException {
         //crear un medicalprescriptioline i comproves que estigui correcte tot, despres afegir hashmap
 
+        HashMap<String, String> instrucs = new HashMap<>();
+
         if(instruc.length != 6) {
             throw  new IncorrectTakingGuidelinesException();
 
@@ -34,7 +37,16 @@ public class MedicalPrescription {
                 throw new IncorrectTakingGuidelinesException();
             }
         }
+
         checkAllParameters(instruc);
+        instrucs.put("dayMoment", instruc[0]);
+        instrucs.put("Duration", instruc[1]);
+        instrucs.put("Instructions", instruc[2]);
+        instrucs.put("Dose", instruc[3]);
+        instrucs.put("Frequency", instruc[4]);
+        instrucs.put("Frequency Unit", instruc[5]);
+        System.out.println(instrucs);
+
 
         //TODO CREAR EL HASHMAP I ACABAR LA FUNCIÓ:D
 
