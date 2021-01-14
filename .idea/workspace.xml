@@ -20,32 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b5b7dbf-2418-4d34-9379-29bf9a8a2c7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exceptions/AnyCurrentPrescriptionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/AnyKeyWordMedicineException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/AnyMedicineSearchException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/AnySelectMedicineExpcetion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/HealthCardException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/IncorrectEndingDateException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/IncorrectTakingGuidelinesException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/NotCompletedMedicalPrescription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/NotFinishedTreatmentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/NotValidePrescription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/NotValidePrescriptionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/ProductNotInPrescription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/eSignatureException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/printingException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medicalconsultation/MedicalPrescriptionLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medicalconsultation/ProductSpecification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConsultationTerminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsultationTerminal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/ProductID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/ProductID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/medicalconsultation/FqUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medicalconsultation/FqUnit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/medicalconsultation/Posology.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medicalconsultation/Posology.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/medicalconsultation/TakingGuideline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medicalconsultation/TakingGuideline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/medicalconsultation/dayMoment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medicalconsultation/dayMoment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/HealthNationalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/HealthNationalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/ScheduledVisitAgenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/ScheduledVisitAgenda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/medicalconsultation/MedicalPrescriptionLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medicalconsultation/MedicalPrescriptionLine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,18 +73,18 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="exceptions" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="data" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="exceptions" />
       <recent name="" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="data" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.DigitalSignatureTest">
