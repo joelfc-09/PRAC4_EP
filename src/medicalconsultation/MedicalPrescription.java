@@ -14,6 +14,8 @@ public class MedicalPrescription {
     private HealthCardID hcID;
     private DigitalSignature eSign;
 
+    public HashMap<ProductID, String[]> hashMap = new HashMap<>();
+
     //TODO Its components, that is, the set of medical prescription lines
 
     public MedicalPrescription(){
@@ -25,8 +27,6 @@ public class MedicalPrescription {
 
     public void addLine(ProductID prodID, String[] instruc) throws IncorrectTakingGuidelinesException {
         //crear un medicalprescriptioline i comproves que estigui correcte tot, despres afegir hashmap
-
-        HashMap<ProductID, String[]> hashMap = new HashMap<>();
 
         if(instruc.length != 6) {
             throw  new IncorrectTakingGuidelinesException();
@@ -44,7 +44,7 @@ public class MedicalPrescription {
     }
 
     public void modifyLine(ProductID prodID, String instruct) throws ProductNotInPrescription {
-        //TODO
+
     }
 
     public void removeLine(ProductID proID) throws ProductNotInPrescription {
@@ -89,6 +89,6 @@ public class MedicalPrescription {
         }
         return true;
     }
-    
+
     //TODO the getters and setters
 }
