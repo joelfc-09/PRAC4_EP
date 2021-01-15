@@ -13,8 +13,9 @@ public class MedicalPrescription {
     private Date endDate;
     private HealthCardID hcID;
     private DigitalSignature eSign;
+    private MedicalPrescriptionLine MPLine;
 
-    public HashMap<ProductID, String[]> hashMap = new HashMap<>();
+    public HashMap<ProductID, MedicalPrescriptionLine> hashMap = new HashMap<>();
 
  
     public MedicalPrescription(int prescCode, Date prescDate, Date endDate, HealthCardID hcID, DigitalSignature eSign){
@@ -24,22 +25,6 @@ public class MedicalPrescription {
         this.hcID = hcID;
         this.eSign = eSign;
 
-
-    }
-    public int getPrescCode() {
-        return prescCode;
-    }
-    public Date getPrescDate() {
-        return prescDate;
-    }
-    public Date getEndDate () {
-        return endDate;
-    }
-    public HealthCardID getHcID () {
-        return hcID;
-    }
-    public DigitalSignature geteSign () {
-        return eSign;
     }
 
 
@@ -69,7 +54,7 @@ public class MedicalPrescription {
         }
 
         if (checkAllParameters(instruc)) {
-            hashMap.put(prodID, instruc);
+            hashMap.put(prodID, MPLine);
         }
     }
 
@@ -77,7 +62,7 @@ public class MedicalPrescription {
         if (prodID == null){
             throw new ProductNotInPrescription();
         }
-        hashMap.replace(prodID, instruct);
+        hashMap.replace(prodID, MPLine);
     }
 
     public void removeLine(ProductID prodID) throws ProductNotInPrescription {

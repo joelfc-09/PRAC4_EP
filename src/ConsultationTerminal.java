@@ -1,5 +1,6 @@
 import java.net.ConnectException;
 
+import data.DigitalSignature;
 import data.HealthCardID;
 import exceptions.*;
 
@@ -20,6 +21,7 @@ final public class ConsultationTerminal {
     public MedicalPrescription MP;
 
     public Date dateActual;
+    public DigitalSignature eSignMetge;
 
     public List<ProductSpecification> productList;
 
@@ -58,7 +60,7 @@ final public class ConsultationTerminal {
     }
 
     public void searchForProducts(String keyWord) throws AnyKeyWordMedicineException, ConnectException {
-        //TODO
+
         if (HNS.getProductsByKW(keyWord) == null) {
             throw new AnyKeyWordMedicineException();
         }
@@ -67,7 +69,7 @@ final public class ConsultationTerminal {
     }
 
     public void selectProduct(int option) throws AnyMedicineSearchException, ConnectException {
-        //TODO
+
         if (HNS.getProductSpecific(option) == null) {
             throw new AnyMedicineSearchException();
         }
@@ -75,7 +77,7 @@ final public class ConsultationTerminal {
     }
 
     public void enterMedicineGuidelines (String[] instruc) throws AnySelectMedicineExpcetion, IncorrectTakingGuidelinesException {
-        //TODO
+
         if (instruc == null) {
             throw new AnySelectMedicineExpcetion();
         }
@@ -87,7 +89,7 @@ final public class ConsultationTerminal {
     }
 
     public void enterTreatmentEndingDate (Date date) throws IncorrectEndingDateException {
-        //TODO
+
         if (date.before(dateActual)) {
             throw new IncorrectEndingDateException();
         }
@@ -96,8 +98,13 @@ final public class ConsultationTerminal {
     }
 
     public void sendePrescription() throws ConnectException, NotValidePrescription, eSignatureException, NotCompletedMedicalPrescription {
-        //TODO
-        
+
+        if (eSignMetge.getSignature() == null) {
+            throw new eSignatureException();
+        }else if(MP == null) {
+            throw new NotValidePrescription();
+        }else if( HNS.sendePrescription(MP) == null){
+        MP.seteSign(eSignMetge);
     }
 
     public void printePresc() throws printingException {
