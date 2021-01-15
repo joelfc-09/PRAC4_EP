@@ -16,13 +16,32 @@ public class MedicalPrescription {
 
     public HashMap<ProductID, String[]> hashMap = new HashMap<>();
 
+ 
     public MedicalPrescription(int prescCode, Date prescDate, Date endDate, HealthCardID hcID, DigitalSignature eSign){
         this.prescCode = prescCode;
         this.prescDate = prescDate;
         this.endDate = endDate;
         this.hcID = hcID;
         this.eSign = eSign;
+
+
     }
+    public int getPrescCode() {
+        return prescCode;
+    }
+    public Date getPrescDate() {
+        return prescDate;
+    }
+    public Date getEndDate () {
+        return endDate;
+    }
+    public HealthCardID getHcID () {
+        return hcID;
+    }
+    public DigitalSignature geteSign () {
+        return eSign;
+    }
+
 
     // Getters
     public int getPrescCode () { return prescCode; }
@@ -54,12 +73,18 @@ public class MedicalPrescription {
         }
     }
 
-    public void modifyLine(ProductID prodID, String[] instruct) throws ProductNotInPrescription {
+    public void modifyLine(ProductID prodID, String instruct[]) throws ProductNotInPrescription {
+        if (prodID == null){
+            throw new ProductNotInPrescription();
+        }
         hashMap.replace(prodID, instruct);
     }
 
-    public void removeLine(ProductID proID) throws ProductNotInPrescription {
-        hashMap.remove(proID);
+    public void removeLine(ProductID prodID) throws ProductNotInPrescription {
+        if (prodID == null){
+            throw new ProductNotInPrescription();
+        }
+        hashMap.remove(prodID);
     }
 
     @Override
