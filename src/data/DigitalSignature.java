@@ -1,7 +1,6 @@
 package data;
 
 final public class DigitalSignature {
-    //TODO
 
     private final byte[] personalSignature;
 

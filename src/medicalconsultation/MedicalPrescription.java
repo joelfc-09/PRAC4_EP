@@ -42,7 +42,6 @@ public class MedicalPrescription {
 
 
     public void addLine(ProductID prodID, String[] instruc) throws IncorrectTakingGuidelinesException {
-        //crear un medicalprescriptioline i comproves que estigui correcte tot, despres afegir hashmap
 
         if(instruc.length != 6) {
             throw  new IncorrectTakingGuidelinesException();
