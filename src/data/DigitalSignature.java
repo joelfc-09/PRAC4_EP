@@ -1,10 +1,17 @@
 package data;
 
+import exceptions.NullArgumentException;
+
 final public class DigitalSignature {
 
     private final byte[] personalSignature;
 
-    public DigitalSignature(byte[] personalSignature) { this.personalSignature = personalSignature; }
+    public DigitalSignature(byte[] personalSignature) throws NullArgumentException {
+        if (personalSignature == null) {
+            throw new NullArgumentException();
+        }
+        this.personalSignature = personalSignature;
+    }
 
     public byte[] getSignature() { return personalSignature; }
 
