@@ -26,34 +26,32 @@ public class MedicalPrescription {
     public void addLine(ProductID prodID, String[] instruc) throws IncorrectTakingGuidelinesException {
         //crear un medicalprescriptioline i comproves que estigui correcte tot, despres afegir hashmap
 
-        HashMap<String, String> instrucs = new HashMap<>();
+        HashMap<ProductID, String[]> hashMap = new HashMap<>();
 
         if(instruc.length != 6) {
             throw  new IncorrectTakingGuidelinesException();
 
         }
-        for(int i = 0; i < instruc.length; i++){
-            if(instruc[i] == null){
+        for (String s : instruc) {
+            if (s == null) {
                 throw new IncorrectTakingGuidelinesException();
             }
         }
 
-        checkAllParameters(instruc);
-        instrucs.put("dayMoment", instruc[0]);
-        instrucs.put("Duration", instruc[1]);
-        instrucs.put("Instructions", instruc[2]);
-        instrucs.put("Dose", instruc[3]);
-        instrucs.put("Frequency", instruc[4]);
-        instrucs.put("Frequency Unit", instruc[5]);
-        System.out.println(instrucs);
-
-
-        //TODO CREAR EL HASHMAP I ACABAR LA FUNCIÓ:D
-
-
+        if (checkAllParameters(instruc)) {
+            hashMap.put(prodID, instruc);
+        }
     }
 
-    public void checkAllParameters(String instruc[]) throws IncorrectTakingGuidelinesException{
+    public void modifyLine(ProductID prodID, String instruct) throws ProductNotInPrescription {
+        //TODO
+    }
+
+    public void removeLine(ProductID proID) throws ProductNotInPrescription {
+        //TODO
+    }
+
+    public boolean checkAllParameters(String[] instruc) throws IncorrectTakingGuidelinesException{
         try{
             dayMoment.valueOf(instruc[0]);
         }catch (Exception e) {
@@ -89,18 +87,8 @@ public class MedicalPrescription {
         }catch (Exception e){
             throw new IncorrectTakingGuidelinesException();
         }
-
+        return true;
     }
-
-    public void modifyLine(ProductID prodID, String instruct) throws ProductNotInPrescription {
-        //TODO
-    }
-
-    public void removeLine(ProductID proID) throws ProductNotInPrescription {
-        //TODO
-    }
-
-
-
+    
     //TODO the getters and setters
 }
