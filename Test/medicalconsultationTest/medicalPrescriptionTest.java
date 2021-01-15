@@ -9,6 +9,15 @@ public class medicalPrescriptionTest {
     @Test
 
     public void getPrescCode_test(){
+        //TODO
+        int prescCodeTest = 12;
+        assertEquals(prescCodeTest.getPrescCode(), 12);
+    }
+
+    @Test
+    public void getPrescDate() {
+
+    public void getPrescCode_test(){
         int prescCodeTest =  12;
         assertEquals(prescCodeTest.getPrescCode(), 12);
 

@@ -1,7 +1,5 @@
 package data;
-/**
- * The personal identifying code in the National Health Service.
- */
+
 final public class HealthCardID {
 
     private final String personalID;
