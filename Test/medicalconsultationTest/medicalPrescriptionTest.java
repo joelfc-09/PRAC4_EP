@@ -10,7 +10,7 @@ public class medicalPrescriptionTest {
 
     public void getPrescCode_test(){
         int prescCodeTest =  12;
-        assertEquals(prescCodeTest.get, 12);
+        assertEquals(prescCodeTest.getPrescCode(), 12);
 
 
     }
