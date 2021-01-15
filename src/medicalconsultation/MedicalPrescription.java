@@ -18,17 +18,16 @@ public class MedicalPrescription {
 
     public MedicalPrescription(int code, Date prescDate, Date endDate, HealthCardID hcID, DigitalSignature eSign) {
 
-        this.prescCode = code;
         this.prescDate = prescDate;
         this.endDate = endDate;
         this.hcID = hcID;
         this.eSign = eSign;
 
     }
-    public int getPrescCode () {
+    public int getPrescCode() {
         return prescCode;
     }
-    public Date getPrescDate () {
+    public Date getPrescDate() {
         return prescDate;
     }
     public Date getEndDate () {
