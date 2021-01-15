@@ -1,6 +1,9 @@
 import java.net.ConnectException;
 
+import data.HealthCardID;
 import exceptions.*;
+import services.HealthNationalService;
+import services.ScheduledVisitAgenda;
 
 import java.util.Date;
 
