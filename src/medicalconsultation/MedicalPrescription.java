@@ -16,30 +16,31 @@ public class MedicalPrescription {
 
     public HashMap<ProductID, String[]> hashMap = new HashMap<>();
 
-    public MedicalPrescription(int prescCode, Date prescDate, Date endDate, HealthCardID hcID, DigitalSignature eSign){
-        this.prescCode = prescCode;
+    public MedicalPrescription(int code, Date prescDate, Date endDate, HealthCardID hcID, DigitalSignature eSign) {
+
+        this.prescCode = code;
         this.prescDate = prescDate;
         this.endDate = endDate;
         this.hcID = hcID;
         this.eSign = eSign;
 
     }
-
-    public int getPrescCode(){
+    public int getPrescCode () {
         return prescCode;
     }
-    public Date getPrescDate(){
+    public Date getPrescDate () {
         return prescDate;
     }
-    public Date getEndDate(){
+    public Date getEndDate () {
         return endDate;
     }
-    public HealthCardID getHcID(){
+    public HealthCardID getHcID () {
         return hcID;
     }
-    public DigitalSignature geteSign(){
+    public DigitalSignature geteSign () {
         return eSign;
     }
+
 
     public void addLine(ProductID prodID, String[] instruc) throws IncorrectTakingGuidelinesException {
         //crear un medicalprescriptioline i comproves que estigui correcte tot, despres afegir hashmap
