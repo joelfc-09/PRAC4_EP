@@ -44,11 +44,11 @@ public class MedicalPrescription {
     }
 
     public void modifyLine(ProductID prodID, String instruct) throws ProductNotInPrescription {
-
+        hashMap.replace(prodID, instruct)
     }
 
     public void removeLine(ProductID proID) throws ProductNotInPrescription {
-        //TODO
+        hashMap.remove(proID);
     }
 
     public boolean checkAllParameters(String[] instruc) throws IncorrectTakingGuidelinesException{
