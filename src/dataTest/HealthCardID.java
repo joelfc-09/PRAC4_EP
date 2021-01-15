@@ -1,10 +1,17 @@
-package data;
+package dataTest;
+
+import exceptions.NullArgumentException;
 
 final public class HealthCardID {
 
     private final String personalID;
 
-    public HealthCardID(String code) { this. personalID = code; }
+    public HealthCardID(String code) throws NullArgumentException {
+        if (code == null) {
+            throw new NullArgumentException();
+        }
+        this.personalID = code;
+    }
 
     public String getPersonalID() { return personalID; }
 

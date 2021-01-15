@@ -1,16 +1,16 @@
-package data;
+package dataTest;
 
 import exceptions.NullArgumentException;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class DigitalSignatureTest {
+class HealthCardIDTest {
     @Test
     public void nullTest() {
-        byte[] sing = null;
+        String code = null;
         try {
-            DigitalSignature dSign = new DigitalSignature(sing);
+            HealthCardID healthCardID = new HealthCardID(code);
             fail();
         } catch (NullArgumentException e) {
             e.printStackTrace();

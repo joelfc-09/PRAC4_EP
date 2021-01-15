@@ -1,5 +1,7 @@
 package medicalconsultation;
 
+import exceptions.NullArgumentException;
+
 final public class TakingGuideline {
 
     private dayMoment dMoment;
@@ -7,7 +9,10 @@ final public class TakingGuideline {
     private String instructions;
     private Posology posology;
 
-    public TakingGuideline (dayMoment dM, float du, String i, float d, float f, FqUnit u){
+    public TakingGuideline (dayMoment dM, float du, String i, float d, float f, FqUnit u) throws NullArgumentException {
+        if (dM == null || i == null) {
+            throw new NullArgumentException();
+        }
         this.dMoment = dM;
         this.duration = du;
         this.instructions = i;

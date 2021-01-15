@@ -1,6 +1,6 @@
 import java.net.ConnectException;
 
-import data.HealthCardID;
+import dataTest.HealthCardID;
 import exceptions.*;
 
 import medicalconsultation.MedicalPrescription;

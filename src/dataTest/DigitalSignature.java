@@ -1,4 +1,4 @@
-package data;
+package dataTest;
 
 import exceptions.NullArgumentException;
 
