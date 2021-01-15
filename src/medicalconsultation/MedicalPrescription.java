@@ -16,18 +16,12 @@ public class MedicalPrescription {
 
     public HashMap<ProductID, String[]> hashMap = new HashMap<>();
 
-    //TODO Its components, that is, the set of medical prescription lines
-
-    public MedicalPrescription(){
+    public MedicalPrescription(int prescCode, Date prescDate, Date endDate, HealthCardID hcID, DigitalSignature eSign){
         this.prescCode = prescCode;
-        this.prescDate = new Date();
-        this.endDate = new Date();
+        this.prescDate = prescDate;
+        this.endDate = endDate;
         this.hcID = hcID;
-<<<<<<< Updated upstream
-    }
-=======
         this.eSign = eSign;
-
     }
 
     // Getters
@@ -43,10 +37,8 @@ public class MedicalPrescription {
     public void setEndDate(Date endDate) { this.endDate = endDate; }
     public void setHcID(HealthCardID hcID) { this.hcID = hcID; }
     public void seteSign(DigitalSignature eSign) { this.eSign = eSign; }
->>>>>>> Stashed changes
 
     public void addLine(ProductID prodID, String[] instruc) throws IncorrectTakingGuidelinesException {
-
         if(instruc.length != 6) {
             throw  new IncorrectTakingGuidelinesException();
 
@@ -89,44 +81,39 @@ public class MedicalPrescription {
     public boolean checkAllParameters(String[] instruc) throws IncorrectTakingGuidelinesException{
         try{
             dayMoment.valueOf(instruc[0]);
-        }catch (Exception e) {
+        } catch (Exception e) {
             throw new IncorrectTakingGuidelinesException();
         }
 
         try{
             Float.valueOf(instruc[1]);
-        }catch ( Exception e) {
+        } catch ( Exception e) {
             throw new IncorrectTakingGuidelinesException();
         }
 
         try{
             String.valueOf(instruc[2]);
-        }catch (Exception e) {
+        } catch (Exception e) {
             throw new IncorrectTakingGuidelinesException();
         }
 
         try{
             Float.valueOf(instruc[3]);
-        }catch (Exception e){
+        } catch (Exception e){
             throw new IncorrectTakingGuidelinesException();
         }
 
         try{
             Float.valueOf(instruc[4]);
-        }catch (Exception e){
+        } catch (Exception e){
             throw new IncorrectTakingGuidelinesException();
         }
 
         try {
             FqUnit.valueOf(instruc[5]);
-        }catch (Exception e){
+        } catch (Exception e){
             throw new IncorrectTakingGuidelinesException();
         }
         return true;
     }
-<<<<<<< Updated upstream
-
-    //TODO the getters and setters
-=======
->>>>>>> Stashed changes
 }

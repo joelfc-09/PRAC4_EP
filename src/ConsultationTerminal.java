@@ -2,11 +2,10 @@ import java.net.ConnectException;
 
 import data.HealthCardID;
 import exceptions.*;
-<<<<<<< Updated upstream
-=======
+
 import medicalconsultation.MedicalPrescription;
 import medicalconsultation.ProductSpecification;
->>>>>>> Stashed changes
+
 import services.HealthNationalService;
 import services.ScheduledVisitAgenda;
 
@@ -22,15 +21,14 @@ final public class ConsultationTerminal {
 
     public Date dateActual;
 
-    private List<ProductSpecification> productList;
+    public List<ProductSpecification> productList;
 
-    private ProductSpecification product;
+    public ProductSpecification product;
 
     // Setters
     public void setHNS (HealthNationalService HNS) { this.HNS = HNS; }
     public void setAgenda (ScheduledVisitAgenda Agenda) { this.Agenda = Agenda; }
     public void setMedicalPrescription (MedicalPrescription MP) { this.MP = MP; }
-    public void setEndDate (MedicalPrescription MP) { MP.}
 
     public void initRevision() throws HealthCardException, NotValidePrescriptionException, ConnectException {
         //TODO
@@ -99,6 +97,7 @@ final public class ConsultationTerminal {
 
     public void sendePrescription() throws ConnectException, NotValidePrescription, eSignatureException, NotCompletedMedicalPrescription {
         //TODO
+        
     }
 
     public void printePresc() throws printingException {

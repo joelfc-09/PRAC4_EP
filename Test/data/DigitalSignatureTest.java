@@ -19,7 +19,6 @@ class DigitalSignatureTest {
         DigitalSignature signature = new DigitalSignature(byte_ARR);
         byte[] byte_ARR_EXP = {'S', 'I', 'G', 'N'};
         assertEquals(signature.getSignature(), byte_ARR_EXP);
-        // TODO
     }
 
     @Test
