@@ -43,8 +43,8 @@ public class MedicalPrescription {
         }
     }
 
-    public void modifyLine(ProductID prodID, String instruct) throws ProductNotInPrescription {
-        hashMap.replace(prodID, instruct)
+    public void modifyLine(ProductID prodID, String[] instruct) throws ProductNotInPrescription {
+        hashMap.replace(prodID, instruct);
     }
 
     public void removeLine(ProductID proID) throws ProductNotInPrescription {
