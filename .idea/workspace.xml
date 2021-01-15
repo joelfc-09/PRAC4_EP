@@ -232,4 +232,26 @@
     <MESSAGE value="DigitalSignature fet" />
     <option name="LAST_COMMIT_MESSAGE" value="DigitalSignature fet" />
   </component>
+  <component name="WindowStateProjectService">
+    <state width="1478" height="207" key="GridCell.Tab.0.bottom" timestamp="1610657992020">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824/-1080.-850.1080.1880@0.0.1536.824" timestamp="1610657992020" />
+    <state width="1478" height="207" key="GridCell.Tab.0.center" timestamp="1610657992020">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="207" key="GridCell.Tab.0.center/0.0.1536.824/-1080.-850.1080.1880@0.0.1536.824" timestamp="1610657992020" />
+    <state width="1478" height="207" key="GridCell.Tab.0.left" timestamp="1610657992020">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="207" key="GridCell.Tab.0.left/0.0.1536.824/-1080.-850.1080.1880@0.0.1536.824" timestamp="1610657992020" />
+    <state width="1478" height="207" key="GridCell.Tab.0.right" timestamp="1610657992020">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="207" key="GridCell.Tab.0.right/0.0.1536.824/-1080.-850.1080.1880@0.0.1536.824" timestamp="1610657992020" />
+    <state x="425" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1610702598615">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1610702598615" />
+  </component>
 </project>

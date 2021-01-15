@@ -16,13 +16,29 @@ public class MedicalPrescription {
 
     public HashMap<ProductID, String[]> hashMap = new HashMap<>();
 
-    //TODO Its components, that is, the set of medical prescription lines
-
-    public MedicalPrescription(){
+    public MedicalPrescription(int prescCode, Date prescDate, Date endDate, HealthCardID hcID, DigitalSignature eSign){
         this.prescCode = prescCode;
-        this.prescDate = new Date();
-        this.endDate = new Date();
+        this.prescDate = prescDate;
+        this.endDate = endDate;
         this.hcID = hcID;
+        this.eSign = eSign;
+
+    }
+
+    public int getPrescCode(){
+        return prescCode;
+    }
+    public Date getPrescDate(){
+        return prescDate;
+    }
+    public Date getEndDate(){
+        return endDate;
+    }
+    public HealthCardID getHcID(){
+        return hcID;
+    }
+    public DigitalSignature geteSign(){
+        return eSign;
     }
 
     public void addLine(ProductID prodID, String[] instruc) throws IncorrectTakingGuidelinesException {
@@ -43,12 +59,18 @@ public class MedicalPrescription {
         }
     }
 
-    public void modifyLine(ProductID prodID, String instruct) throws ProductNotInPrescription {
-        hashMap.replace(prodID, instruct)
+    public void modifyLine(ProductID prodID, String instruct[]) throws ProductNotInPrescription {
+        if (prodID == null){
+            throw new ProductNotInPrescription();
+        }
+        hashMap.replace(prodID, instruct);
     }
 
-    public void removeLine(ProductID proID) throws ProductNotInPrescription {
-        hashMap.remove(proID);
+    public void removeLine(ProductID prodID) throws ProductNotInPrescription {
+        if (prodID == null){
+            throw new ProductNotInPrescription();
+        }
+        hashMap.remove(prodID);
     }
 
     public boolean checkAllParameters(String[] instruc) throws IncorrectTakingGuidelinesException{
@@ -90,5 +112,5 @@ public class MedicalPrescription {
         return true;
     }
 
-    //TODO the getters and setters
+    
 }
