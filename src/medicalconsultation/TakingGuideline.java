@@ -14,16 +14,20 @@ final public class TakingGuideline {
         this.posology = new Posology(d, f, u);
     }
 
-    public dayMoment getdMoment(){
-        return dMoment;
-    }
-    public float getdDuration(){
-        return duration;
-    }
-    public String getInstructions(){
-        return instructions;
-    }
-    public Posology getPosology() {
-        return posology;
-    }
+    // Getters and Setters
+    public dayMoment getdMoment() { return dMoment; }
+
+    public void setdMoment(dayMoment dMoment) { this.dMoment = dMoment; }
+
+    public float getDuration() { return duration; }
+
+    public void setDuration(float duration) { this.duration = duration; }
+
+    public String getInstructions() { return instructions; }
+
+    public void setInstructions(String instructions) { this.instructions = instructions; }
+
+    public Posology getPosology() { return posology; }
+
+    public void setPosology(Posology posology) { this.posology = posology; }
 }

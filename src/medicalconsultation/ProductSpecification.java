@@ -15,9 +15,16 @@ public class ProductSpecification {
         this.price = price;
     }
 
-    public ProductID getProductID() { return UPCcode; }
+    // Getters and Setters
+    public ProductID getUPCcode() { return UPCcode; }
+
+    public void setUPCcode(ProductID UPCcode) { this.UPCcode = UPCcode; }
 
     public String getDescription() { return description; }
 
+    public void setDescription(String description) { this.description = description; }
+
     public BigDecimal getPrice() { return price; }
+
+    public void setPrice(BigDecimal price) { this.price = price; }
 }

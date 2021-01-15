@@ -26,12 +26,9 @@ final public class ConsultationTerminal {
     public ProductSpecification product;
 
     // Setters
-    public void setHNS (HealthNationalService HNS) { this.HNS = HNS; }
-    public void setAgenda (ScheduledVisitAgenda Agenda) { this.Agenda = Agenda; }
     public void setMedicalPrescription (MedicalPrescription MP) { this.MP = MP; }
 
     public void initRevision() throws HealthCardException, NotValidePrescriptionException, ConnectException {
-        //TODO
         HealthCardID patientID = Agenda.getHealthCarID();
 
         if (patientID == null) {
@@ -47,7 +44,6 @@ final public class ConsultationTerminal {
     }
 
     public void initPrescriptionEdition() throws AnyCurrentPrescriptionException, NotFinishedTreatmentException {
-        //TODO
         if (MP == null) {
             throw new AnyCurrentPrescriptionException();
         }
@@ -58,7 +54,6 @@ final public class ConsultationTerminal {
     }
 
     public void searchForProducts(String keyWord) throws AnyKeyWordMedicineException, ConnectException {
-        //TODO
         if (HNS.getProductsByKW(keyWord) == null) {
             throw new AnyKeyWordMedicineException();
         }
@@ -67,7 +62,6 @@ final public class ConsultationTerminal {
     }
 
     public void selectProduct(int option) throws AnyMedicineSearchException, ConnectException {
-        //TODO
         if (HNS.getProductSpecific(option) == null) {
             throw new AnyMedicineSearchException();
         }
@@ -75,7 +69,6 @@ final public class ConsultationTerminal {
     }
 
     public void enterMedicineGuidelines (String[] instruc) throws AnySelectMedicineExpcetion, IncorrectTakingGuidelinesException {
-        //TODO
         if (instruc == null) {
             throw new AnySelectMedicineExpcetion();
         }
@@ -87,7 +80,6 @@ final public class ConsultationTerminal {
     }
 
     public void enterTreatmentEndingDate (Date date) throws IncorrectEndingDateException {
-        //TODO
         if (date.before(dateActual)) {
             throw new IncorrectEndingDateException();
         }
@@ -96,11 +88,10 @@ final public class ConsultationTerminal {
     }
 
     public void sendePrescription() throws ConnectException, NotValidePrescription, eSignatureException, NotCompletedMedicalPrescription {
-        //TODO
-        
+        HNS.sendePrescription(MP);
     }
 
     public void printePresc() throws printingException {
-        //TODO
+        // Nothing
     }
 }
