@@ -23,7 +23,27 @@ public class MedicalPrescription {
         this.prescDate = new Date();
         this.endDate = new Date();
         this.hcID = hcID;
+<<<<<<< Updated upstream
     }
+=======
+        this.eSign = eSign;
+
+    }
+
+    // Getters
+    public int getPrescCode () { return prescCode; }
+    public Date getPrescDate () { return prescDate; }
+    public Date getEndDate () { return endDate; }
+    public HealthCardID getHcID () { return hcID; }
+    public DigitalSignature geteSign () { return eSign; }
+
+    // Setters
+    public void setPrescCode(int prescCode) { this.prescCode = prescCode; }
+    public void setPrescDate(Date prescDate) { this.prescDate = prescDate; }
+    public void setEndDate(Date endDate) { this.endDate = endDate; }
+    public void setHcID(HealthCardID hcID) { this.hcID = hcID; }
+    public void seteSign(DigitalSignature eSign) { this.eSign = eSign; }
+>>>>>>> Stashed changes
 
     public void addLine(ProductID prodID, String[] instruc) throws IncorrectTakingGuidelinesException {
 
@@ -48,6 +68,22 @@ public class MedicalPrescription {
 
     public void removeLine(ProductID proID) throws ProductNotInPrescription {
         hashMap.remove(proID);
+    }
+
+    @Override
+    public String toString() {
+        return "MedicalPrescription{" +
+                "prescCode=" + prescCode +
+                ", prescDate=" + prescDate +
+                ", endDate=" + endDate +
+                ", hcID=" + hcID +
+                ", eSign=" + eSign +
+                ", hashMap=" + hashMap +
+                '}';
+    }
+
+    public void printMP() {
+        System.out.println(toString());
     }
 
     public boolean checkAllParameters(String[] instruc) throws IncorrectTakingGuidelinesException{
@@ -88,6 +124,9 @@ public class MedicalPrescription {
         }
         return true;
     }
+<<<<<<< Updated upstream
 
     //TODO the getters and setters
+=======
+>>>>>>> Stashed changes
 }
