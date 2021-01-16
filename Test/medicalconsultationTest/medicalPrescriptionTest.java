@@ -6,8 +6,7 @@ import java.util.Date;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class medicalPrescriptionTest {
-    @Test
 
-
+}
     }
 }

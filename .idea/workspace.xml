@@ -101,6 +101,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+  <component name="RunManager" selected="JUnit.DigitalSignatureTest">
     <configuration name="DigitalSignatureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRAC4_FarréGarcia" />
       <extension name="coverage">
@@ -203,6 +204,8 @@
       <workItem from="1609096042122" duration="16000" />
       <workItem from="1610389959121" duration="2952000" />
       <workItem from="1610544054334" duration="2845000" />
+      <workItem from="1610749888655" duration="23000" />
+      <workItem from="1610749922399" duration="62000" />
     </task>
     <task id="LOCAL-00001" summary="DigitalSignature fet">
       <created>1610391757417</created>

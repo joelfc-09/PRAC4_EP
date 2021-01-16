@@ -1,10 +1,15 @@
-package data;
+package dataTest;
+
+import exceptions.NullArgumentException;
 
 final public class ProductID {
 
     private final String productID;
 
-    public ProductID(String code) {
+    public ProductID(String code) throws NullArgumentException {
+        if (code == null) {
+            throw new NullArgumentException();
+        }
         this.productID = code;
     }
 
