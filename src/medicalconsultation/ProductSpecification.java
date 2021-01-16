@@ -1,6 +1,6 @@
 package medicalconsultation;
 
-import data.ProductID;
+import dataTest.ProductID;
 
 import java.math.BigDecimal;
 

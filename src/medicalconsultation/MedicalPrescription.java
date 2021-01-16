@@ -1,6 +1,6 @@
 package medicalconsultation;
 
-import data.*;
+import dataTest.*;
 import exceptions.IncorrectTakingGuidelinesException;
 import exceptions.ProductNotInPrescription;
 
