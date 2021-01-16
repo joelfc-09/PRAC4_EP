@@ -1,6 +1,11 @@
 import java.net.ConnectException;
 
+
 import dataTest.HealthCardID;
+
+import data.DigitalSignature;
+import data.HealthCardID;
+
 import exceptions.*;
 
 import medicalconsultation.MedicalPrescription;
@@ -20,15 +25,19 @@ final public class ConsultationTerminal {
     public MedicalPrescription MP;
 
     public Date dateActual;
+    public DigitalSignature eSignMetge;
 
     public List<ProductSpecification> productList;
 
     public ProductSpecification product;
 
     // Setters
+    public void setHNS (HealthNationalService HNS) { this.HNS = HNS; }
+    public void setAgenda (ScheduledVisitAgenda Agenda) { this.Agenda = Agenda; }
     public void setMedicalPrescription (MedicalPrescription MP) { this.MP = MP; }
 
     public void initRevision() throws HealthCardException, NotValidePrescriptionException, ConnectException {
+        //TODO
         HealthCardID patientID = Agenda.getHealthCarID();
 
         if (patientID == null) {
@@ -44,6 +53,7 @@ final public class ConsultationTerminal {
     }
 
     public void initPrescriptionEdition() throws AnyCurrentPrescriptionException, NotFinishedTreatmentException {
+        //TODO
         if (MP == null) {
             throw new AnyCurrentPrescriptionException();
         }
@@ -54,6 +64,7 @@ final public class ConsultationTerminal {
     }
 
     public void searchForProducts(String keyWord) throws AnyKeyWordMedicineException, ConnectException {
+
         if (HNS.getProductsByKW(keyWord) == null) {
             throw new AnyKeyWordMedicineException();
         }
@@ -62,6 +73,7 @@ final public class ConsultationTerminal {
     }
 
     public void selectProduct(int option) throws AnyMedicineSearchException, ConnectException {
+
         if (HNS.getProductSpecific(option) == null) {
             throw new AnyMedicineSearchException();
         }
@@ -69,6 +81,7 @@ final public class ConsultationTerminal {
     }
 
     public void enterMedicineGuidelines (String[] instruc) throws AnySelectMedicineExpcetion, IncorrectTakingGuidelinesException {
+
         if (instruc == null) {
             throw new AnySelectMedicineExpcetion();
         }
@@ -80,6 +93,7 @@ final public class ConsultationTerminal {
     }
 
     public void enterTreatmentEndingDate (Date date) throws IncorrectEndingDateException {
+
         if (date.before(dateActual)) {
             throw new IncorrectEndingDateException();
         }
@@ -88,10 +102,16 @@ final public class ConsultationTerminal {
     }
 
     public void sendePrescription() throws ConnectException, NotValidePrescription, eSignatureException, NotCompletedMedicalPrescription {
-        HNS.sendePrescription(MP);
+
+        if (eSignMetge.getSignature() == null) {
+            throw new eSignatureException();
+        }else if(MP == null) {
+            throw new NotValidePrescription();
+        }else if( HNS.sendePrescription(MP) == null){
+        MP.seteSign(eSignMetge);
     }
 
     public void printePresc() throws printingException {
-        // Nothing
+        //TODO
     }
 }
