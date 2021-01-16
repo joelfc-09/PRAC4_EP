@@ -99,15 +99,10 @@ final public class ConsultationTerminal {
 
     public void sendePrescription() throws ConnectException, NotValidePrescription, eSignatureException, NotCompletedMedicalPrescription {
 
-        if (eSignMetge.getSignature() == null) {
-            throw new eSignatureException();
-        }else if(MP == null) {
-            throw new NotValidePrescription();
-        }else if( HNS.sendePrescription(MP) == null){
-        MP.seteSign(eSignMetge);
+        HNS.sendePrescription(MP);
     }
 
     public void printePresc() throws printingException {
-        //TODO
+        //Nothing
     }
 }
