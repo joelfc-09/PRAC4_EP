@@ -4,21 +4,7 @@
     <list default="true" id="e3816fc7-7189-44e3-863b-506a47612ed2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/medicalconsultationTest/medicalPrescriptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/medicalconsultationTest/medicalPrescriptionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/ConsultationTerminal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/ConsultationTerminal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/dataTest/DigitalSignature.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/dataTest/HealthCardID.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/dataTest/ProductID.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/medicalconsultation/MedicalPrescription.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/medicalconsultation/MedicalPrescription.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/medicalconsultation/ProductSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/medicalconsultation/ProductSpecification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/services/HealthNationalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/services/HealthNationalService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/services/ScheduledVisitAgenda.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/services/ScheduledVisitAgenda.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/dataTest/DigitalSignatureTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/dataTest/DigitalSignatureTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/dataTest/HealthCardIDTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/dataTest/HealthCardIDTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/dataTest/ProductIDTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/dataTest/ProductIDTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/medicalconsultationTest/MedicalPrescriptionLineTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/medicalconsultationTest/MedicalPrescriptionLineTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/medicalconsultationTest/PosologyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/medicalconsultationTest/PosologyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/medicalconsultationTest/ProductSpecificationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/medicalconsultationTest/ProductSpecificationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/medicalconsultationTest/TakingGuidelineTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/medicalconsultationTest/TakingGuidelineTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/medicalconsultationTest/medicalPrescriptionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/medicalconsultationTest/medicalPrescriptionTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java" afterDir="false" />
     </list>
@@ -36,6 +22,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1n9OjiejjurdV7o1mXxtU3RR9Fc" />
   <component name="ProjectViewState">
@@ -65,73 +59,15 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.medicalPrescriptionTest">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HealthCardIDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PRAC4_FarréGarcia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.HealthCardIDTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PosologyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PRAC4_FarréGarcia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="medicalconsultationTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="medicalconsultationTest" />
-      <option name="MAIN_CLASS_NAME" value="medicalconsultationTest.PosologyTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductIDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PRAC4_FarréGarcia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.ProductIDTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductSpecificationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PRAC4_FarréGarcia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="medicalconsultationTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="medicalconsultationTest" />
-      <option name="MAIN_CLASS_NAME" value="medicalconsultationTest.ProductSpecificationTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,13 +87,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="medicalPrescriptionTest.addNullProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRAC4_FarréGarcia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medicalconsultationTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="medicalconsultationTest" />
+      <option name="MAIN_CLASS_NAME" value="medicalconsultationTest.medicalPrescriptionTest" />
+      <option name="METHOD_NAME" value="addNullProductTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="medicalPrescriptionTest.modifyProductWithIncorrectInstruct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRAC4_FarréGarcia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medicalconsultationTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="medicalconsultationTest" />
+      <option name="MAIN_CLASS_NAME" value="medicalconsultationTest.medicalPrescriptionTest" />
+      <option name="METHOD_NAME" value="modifyProductWithIncorrectInstruct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="medicalPrescriptionTest.modifyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRAC4_FarréGarcia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medicalconsultationTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="medicalconsultationTest" />
+      <option name="MAIN_CLASS_NAME" value="medicalconsultationTest.medicalPrescriptionTest" />
+      <option name="METHOD_NAME" value="modifyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="medicalPrescriptionTest.removeLineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRAC4_FarréGarcia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medicalconsultationTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="medicalconsultationTest" />
+      <option name="MAIN_CLASS_NAME" value="medicalconsultationTest.medicalPrescriptionTest" />
+      <option name="METHOD_NAME" value="removeLineTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.medicalPrescriptionTest" />
-        <item itemvalue="JUnit.PosologyTest" />
-        <item itemvalue="JUnit.ProductSpecificationTest" />
-        <item itemvalue="JUnit.ProductIDTest" />
-        <item itemvalue="JUnit.HealthCardIDTest" />
+        <item itemvalue="JUnit.medicalPrescriptionTest.addNullProductTest" />
+        <item itemvalue="JUnit.medicalPrescriptionTest.modifyTest" />
+        <item itemvalue="JUnit.medicalPrescriptionTest.modifyProductWithIncorrectInstruct" />
+        <item itemvalue="JUnit.medicalPrescriptionTest.removeLineTest" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +169,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610798978645</updated>
-      <workItem from="1610798982963" duration="3782000" />
+      <workItem from="1610798982963" duration="3810000" />
+      <workItem from="1610831866732" duration="2954000" />
     </task>
     <servers />
   </component>
@@ -186,5 +187,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

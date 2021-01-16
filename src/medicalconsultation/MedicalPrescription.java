@@ -54,9 +54,10 @@ public class MedicalPrescription {
     public void setHashMap(HashMap<ProductID, MedicalPrescriptionLine> hashMap) { this.hashMap = hashMap; }
 
     public void addLine(ProductID prodID, String[] instruc) throws IncorrectTakingGuidelinesException, NullArgumentException {
-        if(instruc.length != 6) {
-            throw  new IncorrectTakingGuidelinesException();
-
+        if (prodID == null) {
+            throw new NullArgumentException();
+        } else if(instruc.length != 6) {
+            throw new IncorrectTakingGuidelinesException();
         }
         for (String s : instruc) {
             if (s == null) {
@@ -70,12 +71,16 @@ public class MedicalPrescription {
         }
     }
 
-    public void modifyLine(ProductID prodID, String[] instruc) throws ProductNotInPrescription, NullArgumentException {
+    public void modifyLine(ProductID prodID, String[] instruc) throws ProductNotInPrescription, NullArgumentException, IncorrectTakingGuidelinesException {
         if (prodID == null){
             throw new ProductNotInPrescription();
+        } else if (instruc.length != 6) {
+            throw new IncorrectTakingGuidelinesException();
         }
-        MedicalPrescriptionLine mpl = new MedicalPrescriptionLine(dayMoment.valueOf(instruc[0]), Float.parseFloat(instruc[1]), instruc[2], Float.parseFloat(instruc[3]), Float.parseFloat(instruc[4]), FqUnit.valueOf(instruc[5]));
-        hashMap.replace(prodID, mpl);
+        if (checkAllParameters(instruc)) {
+            MedicalPrescriptionLine mpl = new MedicalPrescriptionLine(dayMoment.valueOf(instruc[0]), Float.parseFloat(instruc[1]), instruc[2], Float.parseFloat(instruc[3]), Float.parseFloat(instruc[4]), FqUnit.valueOf(instruc[5]));
+            hashMap.replace(prodID, mpl);
+        }
     }
 
     public void removeLine(ProductID prodID) throws ProductNotInPrescription {
