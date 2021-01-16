@@ -2,38 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3816fc7-7189-44e3-863b-506a47612ed2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/ConsultationTerminalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/dataTest/DigitalSignatureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/dataTest/DigitalSignatureTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/dataTest/HealthCardIDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/dataTest/HealthCardIDTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/dataTest/ProductIDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/dataTest/ProductIDTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/medicalconsultationTest/MedicalPrescriptionLineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/medicalconsultationTest/MedicalPrescriptionLineTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/medicalconsultationTest/PosologyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/medicalconsultationTest/PosologyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/medicalconsultationTest/ProductSpecificationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/medicalconsultationTest/ProductSpecificationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/medicalconsultationTest/TakingGuidelineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/medicalconsultationTest/TakingGuidelineTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/medicalconsultationTest/medicalPrescriptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/medicalconsultationTest/medicalPrescriptionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/ConsultationTerminal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/ConsultationTerminal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/data/DigitalSignature.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/data/HealthCardID.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/data/ProductID.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/dataTest/DigitalSignature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/dataTest/HealthCardID.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/dataTest/ProductID.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/medicalconsultation/MedicalPrescription.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/medicalconsultation/MedicalPrescription.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/medicalconsultation/MedicalPrescriptionLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/medicalconsultation/MedicalPrescriptionLine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/medicalconsultation/Posology.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/medicalconsultation/Posology.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/medicalconsultation/ProductSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/medicalconsultation/ProductSpecification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/medicalconsultation/TakingGuideline.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/medicalconsultation/TakingGuideline.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/services/HealthNationalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/services/HealthNationalService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/services/ScheduledVisitAgenda.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/services/ScheduledVisitAgenda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/dataTest/DigitalSignatureTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/dataTest/DigitalSignatureTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/dataTest/HealthCardIDTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/dataTest/HealthCardIDTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/dataTest/ProductIDTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/dataTest/ProductIDTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/medicalconsultationTest/MedicalPrescriptionLineTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/medicalconsultationTest/MedicalPrescriptionLineTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/medicalconsultationTest/PosologyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/medicalconsultationTest/PosologyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/medicalconsultationTest/ProductSpecificationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/medicalconsultationTest/ProductSpecificationTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/medicalconsultationTest/TakingGuidelineTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/medicalconsultationTest/TakingGuidelineTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConsultationTerminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsultationTerminal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataTest/DigitalSignature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/DigitalSignature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataTest/HealthCardID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/HealthCardID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataTest/ProductID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/ProductID.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/medicalconsultationTest/medicalPrescriptionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/medicalconsultationTest/medicalPrescriptionTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/medicalconsultation/MedicalPrescriptionLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medicalconsultation/MedicalPrescriptionLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/medicalconsultation/Posology.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medicalconsultation/Posology.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/medicalconsultation/ProductSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medicalconsultation/ProductSpecification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/HealthNationalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/HealthNationalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/ScheduledVisitAgenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/ScheduledVisitAgenda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,28 +64,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PosologyTest">
+  <component name="RunManager" selected="JUnit.medicalPrescriptionTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DigitalSignatureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PRAC4_FarréGarcia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.DigitalSignatureTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,13 +136,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="medicalPrescriptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRAC4_FarréGarcia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medicalconsultationTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="medicalconsultationTest" />
+      <option name="MAIN_CLASS_NAME" value="medicalconsultationTest.medicalPrescriptionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.medicalPrescriptionTest" />
         <item itemvalue="JUnit.PosologyTest" />
         <item itemvalue="JUnit.ProductSpecificationTest" />
         <item itemvalue="JUnit.ProductIDTest" />
         <item itemvalue="JUnit.HealthCardIDTest" />
-        <item itemvalue="JUnit.DigitalSignatureTest" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +169,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610798978645</updated>
-      <workItem from="1610798982963" duration="1964000" />
+      <workItem from="1610798982963" duration="3782000" />
     </task>
     <servers />
   </component>

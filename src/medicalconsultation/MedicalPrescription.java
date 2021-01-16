@@ -17,7 +17,10 @@ public class MedicalPrescription {
 
     public HashMap<ProductID, MedicalPrescriptionLine> hashMap = new HashMap<>();
 
-    public MedicalPrescription(int prescCode, Date prescDate, Date endDate, HealthCardID hcID, DigitalSignature eSign){
+    public MedicalPrescription(int prescCode, Date prescDate, Date endDate, HealthCardID hcID, DigitalSignature eSign) throws NullArgumentException {
+        if (prescDate == null || endDate == null || hcID == null || eSign == null) {
+            throw new NullArgumentException();
+        }
         this.prescCode = prescCode;
         this.prescDate = prescDate;
         this.endDate = endDate;
