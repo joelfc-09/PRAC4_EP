@@ -1,6 +1,6 @@
 import java.net.ConnectException;
 
-import dataTest.HealthCardID;
+import data.HealthCardID;
 import exceptions.*;
 
 import medicalconsultation.MedicalPrescription;
@@ -68,7 +68,7 @@ final public class ConsultationTerminal {
         product = productList.get(option);
     }
 
-    public void enterMedicineGuidelines (String[] instruc) throws AnySelectMedicineExpcetion, IncorrectTakingGuidelinesException {
+    public void enterMedicineGuidelines (String[] instruc) throws AnySelectMedicineExpcetion, IncorrectTakingGuidelinesException, NullArgumentException {
         if (instruc == null) {
             throw new AnySelectMedicineExpcetion();
         }

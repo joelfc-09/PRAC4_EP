@@ -1,6 +1,7 @@
 package medicalconsultation;
 
-import dataTest.ProductID;
+import data.ProductID;
+import exceptions.NullArgumentException;
 
 import java.math.BigDecimal;
 
@@ -9,7 +10,10 @@ public class ProductSpecification {
     public String description;
     public BigDecimal price;
 
-    public ProductSpecification(ProductID UPCcode, String description, BigDecimal price) {
+    public ProductSpecification(ProductID UPCcode, String description, BigDecimal price) throws NullArgumentException {
+        if (UPCcode == null || description == null || price == null) {
+            throw new NullArgumentException();
+        }
         this.UPCcode = UPCcode;
         this.description = description;
         this.price = price;

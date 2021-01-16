@@ -1,7 +1,8 @@
 package medicalconsultation;
 
-import dataTest.*;
+import data.*;
 import exceptions.IncorrectTakingGuidelinesException;
+import exceptions.NullArgumentException;
 import exceptions.ProductNotInPrescription;
 
 import java.util.Date;
@@ -49,7 +50,7 @@ public class MedicalPrescription {
 
     public void setHashMap(HashMap<ProductID, MedicalPrescriptionLine> hashMap) { this.hashMap = hashMap; }
 
-    public void addLine(ProductID prodID, String[] instruc) throws IncorrectTakingGuidelinesException {
+    public void addLine(ProductID prodID, String[] instruc) throws IncorrectTakingGuidelinesException, NullArgumentException {
         if(instruc.length != 6) {
             throw  new IncorrectTakingGuidelinesException();
 
@@ -66,7 +67,7 @@ public class MedicalPrescription {
         }
     }
 
-    public void modifyLine(ProductID prodID, String[] instruc) throws ProductNotInPrescription {
+    public void modifyLine(ProductID prodID, String[] instruc) throws ProductNotInPrescription, NullArgumentException {
         if (prodID == null){
             throw new ProductNotInPrescription();
         }
