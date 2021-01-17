@@ -84,11 +84,15 @@ final public class ConsultationTerminal {
         MP.setEndDate(date);
     }
 
-    public void sendePrescription() throws ConnectException, NotValidePrescription, eSignatureException, NotCompletedMedicalPrescription, NotValidePrescriptionException {
+
+    public void sendePrescription() throws ConnectException, NotValidePrescription, eSignatureException, NotCompletedMedicalPrescription {
+
         HNS.sendePrescription(MP);
     }
 
     public void printePresc() throws printingException {
+
         // Nothing
+
     }
 }
