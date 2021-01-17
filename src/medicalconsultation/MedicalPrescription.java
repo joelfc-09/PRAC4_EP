@@ -56,6 +56,7 @@ public class MedicalPrescription {
         if (checkAllParameters(instruc)) {
             hashMap.put(prodID, MPLine);
         }
+
     }
 
     public void modifyLine(ProductID prodID, String instruct[]) throws ProductNotInPrescription {

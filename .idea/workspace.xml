@@ -19,10 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="5b5b7dbf-2418-4d34-9379-29bf9a8a2c7d" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/Test/medicalconsultationTest/ProductEspecificationTest.java" afterDir="false" />
+=======
+    <list default="true" id="07b15e8c-e958-4027-b4da-1c24793ed236" name="Default Changelist" comment="">
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/ConsultationTerminalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/ConsultationTerminalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/medicalconsultationTest/medicalPrescriptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/medicalconsultationTest/medicalPrescriptionTest.java" afterDir="false" />
+<<<<<<< Updated upstream
+=======
+      <change beforePath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/medicalconsultation/MedicalPrescription.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/medicalconsultation/MedicalPrescription.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/data/ProductIDTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/medicalconsultationTest/medicalPrescriptionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/medicalconsultationTest/medicalPrescriptionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,8 +99,13 @@
       <recent name="" />
     </key>
   </component>
+<<<<<<< Updated upstream
   <component name="RunManager" selected="JUnit.medicalPrescriptionTest.getPrescDate_test">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+=======
+  <component name="RunManager" selected="JUnit.medicalPrescriptionTest.addLineTest">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+>>>>>>> Stashed changes
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
@@ -101,23 +118,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< Updated upstream
   <component name="RunManager" selected="JUnit.DigitalSignatureTest">
     <configuration name="DigitalSignatureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="PosologyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> Stashed changes
       <module name="PRAC4_FarréGarcia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.*" />
+          <option name="PATTERN" value="medicalconsultationTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+<<<<<<< Updated upstream
       <option name="PACKAGE_NAME" value="data" />
       <option name="MAIN_CLASS_NAME" value="data.DigitalSignatureTest" />
+=======
+      <option name="PACKAGE_NAME" value="medicalconsultationTest" />
+      <option name="MAIN_CLASS_NAME" value="medicalconsultationTest.PosologyTest" />
+>>>>>>> Stashed changes
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="HealthCardIDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="medicalPrescriptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> Stashed changes
       <module name="PRAC4_FarréGarcia" />
       <extension name="coverage">
         <pattern>
@@ -125,30 +155,49 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+<<<<<<< Updated upstream
       <option name="PACKAGE_NAME" value="data" />
       <option name="MAIN_CLASS_NAME" value="data.HealthCardIDTest" />
+=======
+      <option name="PACKAGE_NAME" value="medicalconsultationTest" />
+      <option name="MAIN_CLASS_NAME" value="medicalconsultationTest.medicalPrescriptionTest" />
+>>>>>>> Stashed changes
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="HealthCardIDTest.HealthCard_TestV2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="medicalPrescriptionTest.addLineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> Stashed changes
       <module name="PRAC4_FarréGarcia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.*" />
+          <option name="PATTERN" value="medicalconsultationTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+<<<<<<< Updated upstream
       <option name="PACKAGE_NAME" value="data" />
       <option name="MAIN_CLASS_NAME" value="data.HealthCardIDTest" />
       <option name="METHOD_NAME" value="HealthCard_TestV2" />
+=======
+      <option name="PACKAGE_NAME" value="medicalconsultationTest" />
+      <option name="MAIN_CLASS_NAME" value="medicalconsultationTest.medicalPrescriptionTest" />
+      <option name="METHOD_NAME" value="addLineTest" />
+>>>>>>> Stashed changes
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="HealthCardIDTest.getPersonalID_TestV4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="medicalPrescriptionTest.addLineTestV2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> Stashed changes
       <module name="PRAC4_FarréGarcia" />
       <extension name="coverage">
         <pattern>
@@ -156,15 +205,25 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+<<<<<<< Updated upstream
       <option name="PACKAGE_NAME" value="data" />
       <option name="MAIN_CLASS_NAME" value="data.HealthCardIDTest" />
       <option name="METHOD_NAME" value="getPersonalID_TestV4" />
+=======
+      <option name="PACKAGE_NAME" value="medicalconsultationTest" />
+      <option name="MAIN_CLASS_NAME" value="medicalconsultationTest.medicalPrescriptionTest" />
+      <option name="METHOD_NAME" value="addLineTestV2" />
+>>>>>>> Stashed changes
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="medicalPrescriptionTest.getPrescDate_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="medicalPrescriptionTest.nullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> Stashed changes
       <module name="PRAC4_FarréGarcia" />
       <extension name="coverage">
         <pattern>
@@ -174,7 +233,11 @@
       </extension>
       <option name="PACKAGE_NAME" value="medicalconsultationTest" />
       <option name="MAIN_CLASS_NAME" value="medicalconsultationTest.medicalPrescriptionTest" />
+<<<<<<< Updated upstream
       <option name="METHOD_NAME" value="getPrescDate_test" />
+=======
+      <option name="METHOD_NAME" value="nullTest" />
+>>>>>>> Stashed changes
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,11 +245,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< Updated upstream
         <item itemvalue="JUnit.medicalPrescriptionTest.getPrescDate_test" />
         <item itemvalue="JUnit.DigitalSignatureTest" />
         <item itemvalue="JUnit.HealthCardIDTest" />
         <item itemvalue="JUnit.HealthCardIDTest.HealthCard_TestV2" />
         <item itemvalue="JUnit.HealthCardIDTest.getPersonalID_TestV4" />
+=======
+        <item itemvalue="JUnit.medicalPrescriptionTest.addLineTest" />
+        <item itemvalue="JUnit.medicalPrescriptionTest.addLineTestV2" />
+        <item itemvalue="JUnit.medicalPrescriptionTest.nullTest" />
+        <item itemvalue="JUnit.medicalPrescriptionTest" />
+        <item itemvalue="JUnit.PosologyTest" />
+>>>>>>> Stashed changes
       </list>
     </recent_temporary>
   </component>
@@ -285,3 +356,66 @@
     </state>
     <state x="425" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1610702598615" />
   </component>
+<<<<<<< Updated upstream
+=======
+  <component name="WindowStateProjectService">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1610821765696">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/-1080.-850.1080.1880@0.0.1536.824" timestamp="1610821765696" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1610821765696">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824/-1080.-850.1080.1880@0.0.1536.824" timestamp="1610821765696" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1610821765695">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824/-1080.-850.1080.1880@0.0.1536.824" timestamp="1610821765695" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1610821765696">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824/-1080.-850.1080.1880@0.0.1536.824" timestamp="1610821765696" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1610821765696">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/-1080.-850.1080.1880@0.0.1536.824" timestamp="1610821765696" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1610821765696">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/-1080.-850.1080.1880@0.0.1536.824" timestamp="1610821765696" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1610821765696">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/-1080.-850.1080.1880@0.0.1536.824" timestamp="1610821765696" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1610821765696">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/-1080.-850.1080.1880@0.0.1536.824" timestamp="1610821765696" />
+    <state x="-1512" y="-163" width="1096" height="573" maximized="true" key="dock-window-1" timestamp="1610841868548">
+      <screen x="-1080" y="-850" width="1080" height="1880" />
+    </state>
+    <state x="-1512" y="-163" width="1096" height="573" maximized="true" key="dock-window-1/0.0.1536.824/-1080.-850.1080.1880@-1080.-850.1080.1880" timestamp="1610841868548" />
+    <state x="-1512" y="-163" width="1096" height="573" key="dock-window-1/0.0.1536.824/-1080.-850.1080.1880@0.0.1536.824" timestamp="1610839476646" />
+    <state x="-1080" y="-217" width="1096" height="573" maximized="true" key="dock-window-2" timestamp="1610841868548">
+      <screen x="-1080" y="-850" width="1080" height="1880" />
+    </state>
+    <state x="-1080" y="-217" width="1096" height="573" maximized="true" key="dock-window-2/0.0.1536.824/-1080.-850.1080.1880@-1080.-850.1080.1880" timestamp="1610841868548" />
+    <state x="-1080" y="-217" width="1096" height="573" key="dock-window-2/0.0.1536.824/-1080.-850.1080.1880@0.0.1536.824" timestamp="1610839476646" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1610823481814">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1080.-850.1080.1880@0.0.1536.824" timestamp="1610823481814" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Test/medicalconsultationTest/medicalPrescriptionTest.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
+>>>>>>> Stashed changes
