@@ -13,7 +13,7 @@ import java.util.Date;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class medicalPrescriptionTest {
+public class MedicalPrescriptionTest {
     @Test
     public void nullTest() {
         try {

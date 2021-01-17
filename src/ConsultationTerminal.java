@@ -68,7 +68,7 @@ final public class ConsultationTerminal {
         product = productList.get(option);
     }
 
-    public void enterMedicineGuidelines (String[] instruc) throws AnySelectMedicineExpcetion, IncorrectTakingGuidelinesException, NullArgumentException {
+    public void enterMedicineGuidelines(String[] instruc) throws AnySelectMedicineExpcetion, IncorrectTakingGuidelinesException, NullArgumentException {
         if (instruc == null) {
             throw new AnySelectMedicineExpcetion();
         }
@@ -79,7 +79,7 @@ final public class ConsultationTerminal {
         MP.addLine(product.UPCcode, instruc);
     }
 
-    public void enterTreatmentEndingDate (Date date) throws IncorrectEndingDateException {
+    public void enterTreatmentEndingDate(Date date) throws IncorrectEndingDateException {
         if (date.before(dateActual)) {
             throw new IncorrectEndingDateException();
         }
