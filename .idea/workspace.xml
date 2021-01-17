@@ -4,10 +4,14 @@
     <list default="true" id="e3816fc7-7189-44e3-863b-506a47612ed2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/ConsultationTerminalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/ConsultationTerminalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/servicesTest/HealthNationalServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/servicesTest/ScheduledVisitAgendaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/ConsultationTerminalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/ConsultationTerminalTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/medicalconsultationTest/medicalPrescriptionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/medicalconsultationTest/medicalPrescriptionTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ConsultationTerminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsultationTerminal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/HealthNationalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/HealthNationalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/HealthNationalServiceClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/HealthNationalServiceClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/ScheduledVisitAgendaClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/ScheduledVisitAgendaClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/HealthNationalServiceClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/servicesTest/HealthNationalServiceClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/ScheduledVisitAgenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/ScheduledVisitAgenda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/ScheduledVisitAgendaClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/servicesTest/ScheduledVisitAgendaClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +172,7 @@
       <workItem from="1610831866732" duration="4247000" />
       <workItem from="1610837785551" duration="599000" />
       <workItem from="1610838685971" duration="1137000" />
-      <workItem from="1610873035677" duration="10036000" />
+      <workItem from="1610873035677" duration="13789000" />
     </task>
     <servers />
   </component>

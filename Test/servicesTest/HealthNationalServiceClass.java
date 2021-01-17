@@ -1,4 +1,4 @@
-package services;
+package servicesTest;
 
 import data.DigitalSignature;
 import data.HealthCardID;
@@ -6,6 +6,7 @@ import data.ProductID;
 import exceptions.*;
 import medicalconsultation.MedicalPrescription;
 import medicalconsultation.ProductSpecification;
+import services.HealthNationalService;
 
 import java.math.BigDecimal;
 import java.net.ConnectException;
@@ -83,5 +84,13 @@ public class HealthNationalServiceClass implements HealthNationalService {
             throw new NotCompletedMedicalPrescription();
         }
         return ePresc;
+    }
+
+    public void addProduct(ProductSpecification productSpecification) {
+
+    }
+
+    public void addPrescription(MedicalPrescription medicalPrescription) {
+
     }
 }

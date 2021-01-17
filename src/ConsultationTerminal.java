@@ -1,14 +1,11 @@
-import java.net.ConnectException;
-
 import data.HealthCardID;
 import exceptions.*;
-
 import medicalconsultation.MedicalPrescription;
 import medicalconsultation.ProductSpecification;
-
 import services.HealthNationalService;
 import services.ScheduledVisitAgenda;
 
+import java.net.ConnectException;
 import java.util.Date;
 import java.util.List;
 
@@ -87,7 +84,7 @@ final public class ConsultationTerminal {
         MP.setEndDate(date);
     }
 
-    public void sendePrescription() throws ConnectException, NotValidePrescription, eSignatureException, NotCompletedMedicalPrescription {
+    public void sendePrescription() throws ConnectException, NotValidePrescription, eSignatureException, NotCompletedMedicalPrescription, NotValidePrescriptionException {
         HNS.sendePrescription(MP);
     }
 
