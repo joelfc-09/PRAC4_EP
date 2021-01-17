@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3816fc7-7189-44e3-863b-506a47612ed2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Test/servicesTest/HealthNationalServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/servicesTest/ScheduledVisitAgendaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/medicalconsultationTest/medicalPrescriptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/medicalconsultationTest/medicalPrescriptionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/medicalconsultation/MedicalPrescription.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/medicalconsultation/MedicalPrescription.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/medicalconsultationTest/medicalPrescriptionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/medicalconsultationTest/medicalPrescriptionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/ConsultationTerminalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/ConsultationTerminalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/ConsultationTerminalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/ConsultationTerminalTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +32,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1n9OjiejjurdV7o1mXxtU3RR9Fc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,6 +46,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Sistemes Concurrents i Paral·lels/SCP-P2/Concurrent_Java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,19 +59,37 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="servicesTest" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.medicalPrescriptionTest">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ConsultationTerminalTest.initRevisionTest">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsultationTerminalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRAC4_FarréGarcia" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConsultationTerminalTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsultationTerminalTest.initRevisionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRAC4_FarréGarcia" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConsultationTerminalTest" />
+      <option name="METHOD_NAME" value="initRevisionTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,22 +125,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="medicalPrescriptionTest.modifyProductWithIncorrectInstruct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PRAC4_FarréGarcia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="medicalconsultationTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="medicalconsultationTest" />
-      <option name="MAIN_CLASS_NAME" value="medicalconsultationTest.medicalPrescriptionTest" />
-      <option name="METHOD_NAME" value="modifyProductWithIncorrectInstruct" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="medicalPrescriptionTest.modifyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRAC4_FarréGarcia" />
       <extension name="coverage">
@@ -135,29 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="medicalPrescriptionTest.removeLineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PRAC4_FarréGarcia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="medicalconsultationTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="medicalconsultationTest" />
-      <option name="MAIN_CLASS_NAME" value="medicalconsultationTest.medicalPrescriptionTest" />
-      <option name="METHOD_NAME" value="removeLineTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConsultationTerminalTest.initRevisionTest" />
+        <item itemvalue="JUnit.ConsultationTerminalTest" />
         <item itemvalue="JUnit.medicalPrescriptionTest" />
         <item itemvalue="JUnit.medicalPrescriptionTest.addNullProductTest" />
         <item itemvalue="JUnit.medicalPrescriptionTest.modifyTest" />
-        <item itemvalue="JUnit.medicalPrescriptionTest.modifyProductWithIncorrectInstruct" />
-        <item itemvalue="JUnit.medicalPrescriptionTest.removeLineTest" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +160,9 @@
       <option name="presentableId" value="Default" />
       <updated>1610798978645</updated>
       <workItem from="1610798982963" duration="3810000" />
-      <workItem from="1610831866732" duration="2954000" />
+      <workItem from="1610831866732" duration="4247000" />
+      <workItem from="1610837785551" duration="599000" />
+      <workItem from="1610838685971" duration="1137000" />
     </task>
     <servers />
   </component>
