@@ -28,7 +28,7 @@ final public class ConsultationTerminal {
     // Setters
     public void setMedicalPrescription (MedicalPrescription MP) { this.MP = MP; }
 
-    public void initRevision() throws HealthCardException, NotValidePrescriptionException, ConnectException {
+    public void initRevision() throws HealthCardException, NotValidePrescriptionException, ConnectException, NullArgumentException {
         HealthCardID patientID = Agenda.getHealthCarID();
 
         if (patientID == null) {
@@ -53,7 +53,7 @@ final public class ConsultationTerminal {
         }
     }
 
-    public void searchForProducts(String keyWord) throws AnyKeyWordMedicineException, ConnectException {
+    public void searchForProducts(String keyWord) throws AnyKeyWordMedicineException, ConnectException, NullArgumentException {
         if (HNS.getProductsByKW(keyWord) == null) {
             throw new AnyKeyWordMedicineException();
         }
@@ -61,7 +61,7 @@ final public class ConsultationTerminal {
 
     }
 
-    public void selectProduct(int option) throws AnyMedicineSearchException, ConnectException {
+    public void selectProduct(int option) throws AnyMedicineSearchException, ConnectException, NullArgumentException {
         if (HNS.getProductSpecific(option) == null) {
             throw new AnyMedicineSearchException();
         }

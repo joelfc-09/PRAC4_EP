@@ -10,8 +10,9 @@ import java.util.HashMap;
 
 public class ScheduledVisitAgendaClass implements ScheduledVisitAgenda {
 
-    public HashMap<Date, HealthCardID> agenda = new HashMap<>();
     public Date visitDate;
+
+    public HashMap<Date, HealthCardID> agenda = new HashMap<>();
 
     public ScheduledVisitAgendaClass(Date visitDate) { this.visitDate = visitDate; }
 
