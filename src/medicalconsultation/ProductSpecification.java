@@ -20,15 +20,35 @@ public class ProductSpecification {
     }
 
     // Getters and Setters
-    public ProductID getUPCcode() { return UPCcode; }
+    public ProductID getUPCcode() {
+        return UPCcode;
+    }
 
-    public void setUPCcode(ProductID UPCcode) { this.UPCcode = UPCcode; }
+    public void setUPCcode(ProductID UPCcode) {
+        this.UPCcode = UPCcode;
+    }
 
-    public String getDescription() { return description; }
+    public String getDescription() {
+        return description;
+    }
 
-    public void setDescription(String description) { this.description = description; }
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
-    public BigDecimal getPrice() { return price; }
+    public BigDecimal getPrice() {
+        return price;
+    }
 
-    public void setPrice(BigDecimal price) { this.price = price; }
+    public void setPrice(BigDecimal price) {
+        this.price = price;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ProductSpecification finalProductSpecification = (ProductSpecification) o;
+        return UPCcode.equals(finalProductSpecification.UPCcode) && description.equals(finalProductSpecification.description) && price.equals(finalProductSpecification.price);
+    }
 }

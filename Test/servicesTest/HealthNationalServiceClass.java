@@ -21,7 +21,7 @@ public class HealthNationalServiceClass implements HealthNationalService {
 
     HashMap<HealthCardID, MedicalPrescription> patientsePrescriptions = new HashMap<>();
 
-    HashMap<String, ProductSpecification> productsCatalogue = new HashMap<>();
+
     List<ProductSpecification> productsFound = new ArrayList<>();
 
     HashMap<Integer, ProductSpecification> productsSpecifications = new HashMap<>();
@@ -46,38 +46,26 @@ public class HealthNationalServiceClass implements HealthNationalService {
 
     @Override
     public List<ProductSpecification> getProductsByKW(String keyWord) throws AnyKeyWordMedicineException, ConnectException, NullArgumentException {
-        productsCatalogue.put("Paracetamol", new ProductSpecification(new ProductID("45656"),"Paracetamol en sobres", new BigDecimal(1)));
-        productsCatalogue.put("Dalsy", new ProductSpecification(new ProductID("78565"),"Dalsy per a nens", new BigDecimal(5)));
-        productsCatalogue.put("600mg", new ProductSpecification(new ProductID("24344"),"Ibuprofeo 600mg", new BigDecimal(3)));
+        productsFound.add(new ProductSpecification(new ProductID("45656"),"Paracetamol en sobres", new BigDecimal(1)));
+        productsFound.add( new ProductSpecification(new ProductID("78565"),"Dalsy per a nens", new BigDecimal(5)));
+        productsFound.add( new ProductSpecification(new ProductID("24344"),"Ibuprofeno 600mg", new BigDecimal(3)));
 
-        for (int i = 0; i < productsCatalogue.size(); i++) {
-            if (productsCatalogue.containsKey(keyWord)) {
-                productsFound.add(productsCatalogue.get(keyWord));
-            }
-        }
         return productsFound;
     }
 
     @Override
     public ProductSpecification getProductSpecific(int opt) throws AnyMedicineSearchException, ConnectException, NullArgumentException {
-        productsSpecifications.put(5443, new ProductSpecification(new ProductID("45656"),"Paracetamol en sobres", new BigDecimal(1)));
-        productsSpecifications.put(7453, new ProductSpecification(new ProductID("78565"),"Dalsy per a nens", new BigDecimal(5)));
-        productsSpecifications.put(9882, new ProductSpecification(new ProductID("24344"),"Ibuprofeo 600mg", new BigDecimal(3)));
+       if(productsFound.size() == 0){
+           throw new AnyMedicineSearchException();
+       }
+       return productsFound.get(opt);
 
-        for (int i = 0; i < productsSpecifications.size(); i++) {
-            if (productsSpecifications.containsKey(opt)) {
-                return productsSpecifications.get(opt);
-            }
-        }
-        throw new AnyMedicineSearchException();
     }
 
     @Override
     public MedicalPrescription sendePrescription(MedicalPrescription ePresc) throws ConnectException, NotValidePrescription, eSignatureException, NotCompletedMedicalPrescription, NotValidePrescriptionException {
-        Random random = new Random();
-        int random_code = random.nextInt(500);
-        ePresc.setPrescCode(random_code);
-        if (ePresc.getPrescDate().before(new Date()) || ePresc.getEndDate().after(new Date())) {
+        ePresc.setPrescCode(20);
+        if ( ePresc.getEndDate().before(new Date(2020, Calendar.JANUARY,17))) {
             throw new NotValidePrescriptionException();
         }
         if (ePresc.hashMap.size() < 1) {

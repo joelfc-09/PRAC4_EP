@@ -6,6 +6,7 @@ import services.HealthNationalService;
 import services.ScheduledVisitAgenda;
 
 import java.net.ConnectException;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
@@ -17,7 +18,7 @@ final public class ConsultationTerminal {
     public MedicalPrescription MP;
     private HealthCardID patientID;
 
-    public Date dateActual;
+    public Date dateActual = new Date(2021, Calendar.JANUARY, 17);
 
     public List<ProductSpecification> productList;
 
@@ -31,6 +32,9 @@ final public class ConsultationTerminal {
     }
     public HealthCardID getHealthCardID(){
         return patientID;
+    }
+    public ProductSpecification getProduct(){
+        return product;
     }
 
     public void initRevision() throws HealthCardException, NotValidePrescriptionException, ConnectException, NullArgumentException {
@@ -67,10 +71,7 @@ final public class ConsultationTerminal {
     }
 
     public void selectProduct(int option) throws AnyMedicineSearchException, ConnectException, NullArgumentException {
-        if (HNS.getProductSpecific(option) == null) {
-            throw new AnyMedicineSearchException();
-        }
-        product = productList.get(option);
+        product = HNS.getProductSpecific(option);
     }
 
     public void enterMedicineGuidelines(String[] instruc) throws AnySelectMedicineExpcetion, IncorrectTakingGuidelinesException, NullArgumentException {
@@ -95,7 +96,7 @@ final public class ConsultationTerminal {
 
     public void sendePrescription() throws ConnectException, NotValidePrescription, eSignatureException, NotCompletedMedicalPrescription, NotValidePrescriptionException {
 
-        HNS.sendePrescription(MP);
+        MP = HNS.sendePrescription(MP);
     }
 
     public void printePresc() throws printingException {
