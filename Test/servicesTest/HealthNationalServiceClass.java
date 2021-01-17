@@ -33,8 +33,8 @@ public class HealthNationalServiceClass implements HealthNationalService {
     @Override
     public MedicalPrescription getePrescription(HealthCardID hcID) throws HealthCardException, NotValidePrescriptionException, ConnectException, NullArgumentException {
         patientsePrescriptions.put(new HealthCardID("BBBBBBBBGJ123456854231456345"), new MedicalPrescription(6547, new Date(2021, Calendar.JANUARY, 17, 10, 41), new Date(2021, Calendar.FEBRUARY, 4, 12, 0), new HealthCardID("BBBBBBBBGJ123456854231456345"), new DigitalSignature(new byte[]{'P', 'A', 'U'})));
-        patientsePrescriptions.put(new HealthCardID("BBBBBBBBFT123456854231456345"), new MedicalPrescription(4567, new Date(2021, Calendar.JANUARY, 17, 10, 41), new Date(2021, Calendar.APRIL, 25, 18, 30), new HealthCardID("BBBBBBBBFT123456854231456345"), new DigitalSignature(new byte[]{'L', 'L', 'U', 'C'})));
-        patientsePrescriptions.put(new HealthCardID("BBBBBBBBPO123456898631456345"), new MedicalPrescription(6547, new Date(2021, Calendar.JANUARY, 17, 10, 41), new Date(2021, Calendar.DECEMBER, 9, 16, 5), new HealthCardID("BBBBBBBBPO123456898631456345"), new DigitalSignature(new byte[]{'M', 'A', 'R', 'C'})));
+        //patientsePrescriptions.put(new HealthCardID("BBBBBBBBFT123456854231456345"), new MedicalPrescription(4567, new Date(2021, Calendar.JANUARY, 17, 10, 41), new Date(2021, Calendar.APRIL, 25, 18, 30), new HealthCardID("BBBBBBBBFT123456854231456345"), new DigitalSignature(new byte[]{'L', 'L', 'U', 'C'})));
+        //patientsePrescriptions.put(new HealthCardID("BBBBBBBBPO123456898631456345"), new MedicalPrescription(6547, new Date(2021, Calendar.JANUARY, 17, 10, 41), new Date(2021, Calendar.DECEMBER, 9, 16, 5), new HealthCardID("BBBBBBBBPO123456898631456345"), new DigitalSignature(new byte[]{'M', 'A', 'R', 'C'})));
 
         for (int i = 0; i < patientsePrescriptions.size(); i++) {
             if (patientsePrescriptions.containsKey(hcID)) {
@@ -86,11 +86,4 @@ public class HealthNationalServiceClass implements HealthNationalService {
         return ePresc;
     }
 
-    public void addProduct(ProductSpecification productSpecification) {
-
-    }
-
-    public void addPrescription(MedicalPrescription medicalPrescription) {
-
-    }
 }

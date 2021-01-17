@@ -146,4 +146,18 @@ public class MedicalPrescription {
         }
         return true;
     }
+    public boolean equals(Object obj){
+        if(this == obj){
+            return true;
+        }
+        if(obj == null || getClass() != obj.getClass()){
+            return false;
+        }
+        MedicalPrescription MP = (MedicalPrescription) obj;
+        if(this.prescCode == MP.prescCode && this.prescDate.equals(MP.prescDate)  && this.endDate.equals(MP.endDate) && this.hcID.equals(MP.hcID) && this.eSign.equals((MP.eSign))){
+            return true;
+        }
+        return false;
+    }
 }
+

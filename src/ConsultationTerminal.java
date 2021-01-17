@@ -15,6 +15,7 @@ final public class ConsultationTerminal {
     public ScheduledVisitAgenda Agenda;
 
     public MedicalPrescription MP;
+    private HealthCardID patientID;
 
     public Date dateActual;
 
@@ -25,8 +26,15 @@ final public class ConsultationTerminal {
     // Setters
     public void setMedicalPrescription (MedicalPrescription MP) { this.MP = MP; }
 
+    public MedicalPrescription getMP(){
+        return MP;
+    }
+    public HealthCardID getHealthCardID(){
+        return patientID;
+    }
+
     public void initRevision() throws HealthCardException, NotValidePrescriptionException, ConnectException, NullArgumentException {
-        HealthCardID patientID = Agenda.getHealthCarID();
+        patientID = Agenda.getHealthCarID();
 
         if (patientID == null) {
             throw new HealthCardException();
@@ -51,7 +59,7 @@ final public class ConsultationTerminal {
     }
 
     public void searchForProducts(String keyWord) throws AnyKeyWordMedicineException, ConnectException, NullArgumentException {
-        if (HNS.getProductsByKW(keyWord) == null) {
+        if (keyWord == null) {
             throw new AnyKeyWordMedicineException();
         }
         productList = HNS.getProductsByKW(keyWord);
@@ -85,7 +93,7 @@ final public class ConsultationTerminal {
     }
 
 
-    public void sendePrescription() throws ConnectException, NotValidePrescription, eSignatureException, NotCompletedMedicalPrescription {
+    public void sendePrescription() throws ConnectException, NotValidePrescription, eSignatureException, NotCompletedMedicalPrescription, NotValidePrescriptionException {
 
         HNS.sendePrescription(MP);
     }

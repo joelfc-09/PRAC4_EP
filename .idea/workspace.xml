@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3816fc7-7189-44e3-863b-506a47612ed2" name="Default Changelist" comment="">
+    <list default="true" id="811ca49c-78e2-4f2e-a1b6-c97c239a2502" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/ConsultationTerminalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/ConsultationTerminalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/servicesTest/HealthNationalServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/servicesTest/ScheduledVisitAgendaTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/ConsultationTerminalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/ConsultationTerminalTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/medicalconsultationTest/medicalPrescriptionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/medicalconsultationTest/medicalPrescriptionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/medicalconsultationTest/MedicalPrescriptionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/medicalconsultationTest/TakingGuidelineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/medicalconsultationTest/TakingGuidelineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/servicesTest/HealthNationalServiceClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/servicesTest/HealthNationalServiceClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/medicalconsultation/MedicalPrescription.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/medicalconsultation/MedicalPrescription.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ConsultationTerminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsultationTerminal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/HealthNationalServiceClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/servicesTest/HealthNationalServiceClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/ScheduledVisitAgenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/ScheduledVisitAgenda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/ScheduledVisitAgendaClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/servicesTest/ScheduledVisitAgendaClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/DigitalSignature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/DigitalSignature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConsultationTerminalTest.initRevisionTest">
+  <component name="RunManager" selected="JUnit.ConsultationTerminalTest">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -93,58 +92,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsultationTerminalTest.initRevisionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConsultationTerminalTest.SearchForProductsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRAC4_FarréGarcia" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ConsultationTerminalTest" />
-      <option name="METHOD_NAME" value="initRevisionTest" />
+      <option name="METHOD_NAME" value="SearchForProductsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MedicalPrescriptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConsultationTerminalTest.initPrescriptionEditionTestV1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRAC4_FarréGarcia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="medicalconsultationTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="medicalconsultationTest" />
-      <option name="MAIN_CLASS_NAME" value="medicalconsultationTest.MedicalPrescriptionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MedicalPrescriptionTest.addNullProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PRAC4_FarréGarcia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="medicalconsultationTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="medicalconsultationTest" />
-      <option name="MAIN_CLASS_NAME" value="medicalconsultationTest.MedicalPrescriptionTest" />
-      <option name="METHOD_NAME" value="addNullProductTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConsultationTerminalTest" />
+      <option name="METHOD_NAME" value="initPrescriptionEditionTestV1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MedicalPrescriptionTest.modifyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConsultationTerminalTest.initRevisionGoodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRAC4_FarréGarcia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="medicalconsultationTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="medicalconsultationTest" />
-      <option name="MAIN_CLASS_NAME" value="medicalconsultationTest.MedicalPrescriptionTest" />
-      <option name="METHOD_NAME" value="modifyTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConsultationTerminalTest" />
+      <option name="METHOD_NAME" value="initRevisionGoodTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsultationTerminalTest.searchForProductsNullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRAC4_FarréGarcia" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConsultationTerminalTest" />
+      <option name="METHOD_NAME" value="searchForProductsNullTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ConsultationTerminalTest.initRevisionTest" />
         <item itemvalue="JUnit.ConsultationTerminalTest" />
-        <item itemvalue="JUnit.MedicalPrescriptionTest" />
-        <item itemvalue="JUnit.MedicalPrescriptionTest.addNullProductTest" />
-        <item itemvalue="JUnit.MedicalPrescriptionTest.modifyTest" />
+        <item itemvalue="JUnit.ConsultationTerminalTest.SearchForProductsTest" />
+        <item itemvalue="JUnit.ConsultationTerminalTest.searchForProductsNullTest" />
+        <item itemvalue="JUnit.ConsultationTerminalTest.initPrescriptionEditionTestV1" />
+        <item itemvalue="JUnit.ConsultationTerminalTest.initRevisionGoodTest" />
       </list>
     </recent_temporary>
   </component>
@@ -190,5 +172,141 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="272" key="GridCell.Tab.0.bottom" timestamp="1610899029399">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="272" key="GridCell.Tab.0.bottom/0.0.1536.824/-1080.-850.1080.1880@0.0.1536.824" timestamp="1610899029399" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610887937293" />
+    <state width="1493" height="272" key="GridCell.Tab.0.center" timestamp="1610899029399">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="272" key="GridCell.Tab.0.center/0.0.1536.824/-1080.-850.1080.1880@0.0.1536.824" timestamp="1610899029399" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610887937293" />
+    <state width="1493" height="272" key="GridCell.Tab.0.left" timestamp="1610899029399">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="272" key="GridCell.Tab.0.left/0.0.1536.824/-1080.-850.1080.1880@0.0.1536.824" timestamp="1610899029399" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610887937293" />
+    <state width="1493" height="272" key="GridCell.Tab.0.right" timestamp="1610899029399">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="272" key="GridCell.Tab.0.right/0.0.1536.824/-1080.-850.1080.1880@0.0.1536.824" timestamp="1610899029399" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610887937293" />
+    <state width="1493" height="272" key="GridCell.Tab.1.bottom" timestamp="1610899029400">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="272" key="GridCell.Tab.1.bottom/0.0.1536.824/-1080.-850.1080.1880@0.0.1536.824" timestamp="1610899029400" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610887937293" />
+    <state width="1493" height="272" key="GridCell.Tab.1.center" timestamp="1610899029399">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="272" key="GridCell.Tab.1.center/0.0.1536.824/-1080.-850.1080.1880@0.0.1536.824" timestamp="1610899029399" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1610887937293" />
+    <state width="1493" height="272" key="GridCell.Tab.1.left" timestamp="1610899029399">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="272" key="GridCell.Tab.1.left/0.0.1536.824/-1080.-850.1080.1880@0.0.1536.824" timestamp="1610899029399" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1610887937293" />
+    <state width="1493" height="272" key="GridCell.Tab.1.right" timestamp="1610899029400">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="272" key="GridCell.Tab.1.right/0.0.1536.824/-1080.-850.1080.1880@0.0.1536.824" timestamp="1610899029400" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1610887937293" />
+    <state x="431" y="68" width="1096" height="569" maximized="true" key="dock-window-1" timestamp="1610899022434">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="68" width="1096" height="569" maximized="true" key="dock-window-1/0.0.1536.824/-1080.-850.1080.1880@0.0.1536.824" timestamp="1610899022434" />
+    <state x="-1080" y="-303" width="1096" height="811" maximized="true" key="dock-window-2" timestamp="1610900440905">
+      <screen x="-1080" y="-850" width="1080" height="1880" />
+    </state>
+    <state x="-1080" y="-303" width="1096" height="811" maximized="true" key="dock-window-2/0.0.1536.824/-1080.-850.1080.1880@0.0.1536.824" timestamp="1610900440905" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1610890509139">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1080.-850.1080.1880@0.0.1536.824" timestamp="1610890509139" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java</url>
+          <line>149</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java</url>
+          <line>150</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java</url>
+          <line>151</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java</url>
+          <line>153</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java</url>
+          <line>154</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java</url>
+          <line>155</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java</url>
+          <line>156</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java</url>
+          <line>158</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java</url>
+          <line>160</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java</url>
+          <line>161</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java</url>
+          <line>148</line>
+          <properties class="medicalconsultation.MedicalPrescription" method="equals">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PRAC4_FarréGarcia$ConsultationTerminalTest_initRevisionGoodTest.ic" NAME="ConsultationTerminalTest.initRevisionGoodTest Coverage Results" MODIFIED="1610888916776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

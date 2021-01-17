@@ -1,19 +1,29 @@
+import data.DigitalSignature;
 import data.HealthCardID;
-import exceptions.HealthCardException;
-import exceptions.NotValidePrescriptionException;
-import exceptions.NullArgumentException;
+import data.ProductID;
+import exceptions.*;
+import medicalconsultation.MedicalPrescription;
+import medicalconsultation.ProductSpecification;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import servicesTest.HealthNationalServiceClass;
 import servicesTest.ScheduledVisitAgendaClass;
 
+import java.math.BigDecimal;
 import java.net.ConnectException;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.HashMap;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class ConsultationTerminalTest {
 
     ConsultationTerminal CT = new ConsultationTerminal();
+    HashMap<String, ProductSpecification> productsCatalogue = new HashMap<>();
+
+    ConsultationTerminalTest() throws NullArgumentException {
+    }
 
     @BeforeEach
     public void beforeEach() throws NullArgumentException {
@@ -23,6 +33,7 @@ class ConsultationTerminalTest {
         CT.HNS = new HealthNationalServiceClass();
 
         CT.Agenda = agendaClass;
+
     }
 
     @Test
@@ -35,20 +46,41 @@ class ConsultationTerminalTest {
             e.printStackTrace();
         }
     }
+    @Test
+    public void initRevisionGoodTest()throws NotValidePrescriptionException, HealthCardException, ConnectException, NullArgumentException {
 
+        ConsultationTerminal expectedCT = new ConsultationTerminal();
+        CT.initRevision();
+        HealthCardID HcIDnew = CT.getHealthCardID();
+        expectedCT.setMedicalPrescription(SetUpMedicalPrescription(HcIDnew));
+        assertTrue(expectedCT.getMP().equals(CT.getMP()));
+
+    }
+
+    public MedicalPrescription SetUpMedicalPrescription(HealthCardID hcID) throws HealthCardException, NullArgumentException, ConnectException, NotValidePrescriptionException {
+        return CT.HNS.getePrescription(hcID);
+
+    }
     @Test
     public void initPrescriptionEditionTest() {
 
+        try{
+            CT.initPrescriptionEdition();
+            fail();
+        }catch (AnyCurrentPrescriptionException | NotFinishedTreatmentException e) {
+            e.printStackTrace();
+        }
     }
 
     @Test
-    public void searchForProductsTest() {
+    public void searchForProductsNullTest() throws ConnectException, NullArgumentException, AnyKeyWordMedicineException {
+
+        assertThrows(AnyKeyWordMedicineException.class, () -> CT.searchForProducts(null));
 
     }
 
     @Test
-    public void selectProductTest() {
-
+    public void selectProductTest() throws HealthCardException, NullArgumentException, ConnectException, NotValidePrescriptionException {
     }
 
     @Test
