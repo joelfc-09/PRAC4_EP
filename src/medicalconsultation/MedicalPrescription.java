@@ -1,7 +1,8 @@
 package medicalconsultation;
 
-import dataTest.*;
+import data.*;
 import exceptions.IncorrectTakingGuidelinesException;
+import exceptions.NullArgumentException;
 import exceptions.ProductNotInPrescription;
 
 import java.util.Date;
@@ -13,39 +14,50 @@ public class MedicalPrescription {
     private Date endDate;
     private HealthCardID hcID;
     private DigitalSignature eSign;
-    private MedicalPrescriptionLine MPLine;
 
     public HashMap<ProductID, MedicalPrescriptionLine> hashMap = new HashMap<>();
 
- 
-    public MedicalPrescription(int prescCode, Date prescDate, Date endDate, HealthCardID hcID, DigitalSignature eSign){
+    public MedicalPrescription(int prescCode, Date prescDate, Date endDate, HealthCardID hcID, DigitalSignature eSign) throws NullArgumentException {
+        if (prescDate == null || endDate == null || hcID == null || eSign == null) {
+            throw new NullArgumentException();
+        }
         this.prescCode = prescCode;
         this.prescDate = prescDate;
         this.endDate = endDate;
         this.hcID = hcID;
         this.eSign = eSign;
-
     }
 
+    // Getters and Setters
+    public int getPrescCode() { return prescCode; }
 
-    // Getters
-    public int getPrescCode () { return prescCode; }
-    public Date getPrescDate () { return prescDate; }
-    public Date getEndDate () { return endDate; }
-    public HealthCardID getHcID () { return hcID; }
-    public DigitalSignature geteSign () { return eSign; }
-
-    // Setters
     public void setPrescCode(int prescCode) { this.prescCode = prescCode; }
+
+    public Date getPrescDate() { return prescDate; }
+
     public void setPrescDate(Date prescDate) { this.prescDate = prescDate; }
+
+    public Date getEndDate() { return endDate; }
+
     public void setEndDate(Date endDate) { this.endDate = endDate; }
+
+    public HealthCardID getHcID() { return hcID; }
+
     public void setHcID(HealthCardID hcID) { this.hcID = hcID; }
+
+    public DigitalSignature geteSign() { return eSign; }
+
     public void seteSign(DigitalSignature eSign) { this.eSign = eSign; }
 
-    public void addLine(ProductID prodID, String[] instruc) throws IncorrectTakingGuidelinesException {
-        if(instruc.length != 6) {
-            throw  new IncorrectTakingGuidelinesException();
+    public HashMap<ProductID, MedicalPrescriptionLine> getHashMap() { return hashMap; }
 
+    public void setHashMap(HashMap<ProductID, MedicalPrescriptionLine> hashMap) { this.hashMap = hashMap; }
+
+    public void addLine(ProductID prodID, String[] instruc) throws IncorrectTakingGuidelinesException, NullArgumentException {
+        if (prodID == null) {
+            throw new NullArgumentException();
+        } else if(instruc.length != 6) {
+            throw new IncorrectTakingGuidelinesException();
         }
         for (String s : instruc) {
             if (s == null) {
@@ -54,20 +66,30 @@ public class MedicalPrescription {
         }
 
         if (checkAllParameters(instruc)) {
-            hashMap.put(prodID, MPLine);
+            MedicalPrescriptionLine mpl = new MedicalPrescriptionLine(dayMoment.valueOf(instruc[0]), Float.parseFloat(instruc[1]), instruc[2], Float.parseFloat(instruc[3]), Float.parseFloat(instruc[4]), FqUnit.valueOf(instruc[5]));
+            hashMap.put(prodID, mpl);
         }
 
     }
 
-    public void modifyLine(ProductID prodID, String instruct[]) throws ProductNotInPrescription {
+    public void modifyLine(ProductID prodID, String[] instruc) throws ProductNotInPrescription, NullArgumentException, IncorrectTakingGuidelinesException {
         if (prodID == null){
             throw new ProductNotInPrescription();
+        } else if (instruc.length != 6) {
+            throw new IncorrectTakingGuidelinesException();
         }
-        hashMap.replace(prodID, MPLine);
+        if (checkAllParameters(instruc)) {
+            MedicalPrescriptionLine mpl = new MedicalPrescriptionLine(dayMoment.valueOf(instruc[0]), Float.parseFloat(instruc[1]), instruc[2], Float.parseFloat(instruc[3]), Float.parseFloat(instruc[4]), FqUnit.valueOf(instruc[5]));
+            hashMap.replace(prodID, mpl);
+        }
     }
 
     public void removeLine(ProductID prodID) throws ProductNotInPrescription {
         if (prodID == null){
+            throw new ProductNotInPrescription();
+        }
+
+        if (!hashMap.containsKey(prodID)) {
             throw new ProductNotInPrescription();
         }
         hashMap.remove(prodID);
@@ -102,9 +124,7 @@ public class MedicalPrescription {
             throw new IncorrectTakingGuidelinesException();
         }
 
-        try{
-            String.valueOf(instruc[2]);
-        } catch (Exception e) {
+        if (instruc[2] == null) {
             throw new IncorrectTakingGuidelinesException();
         }
 

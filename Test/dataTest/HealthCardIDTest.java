@@ -1,5 +1,6 @@
 package dataTest;
 
+import data.HealthCardID;
 import exceptions.NullArgumentException;
 import org.junit.jupiter.api.Test;
 

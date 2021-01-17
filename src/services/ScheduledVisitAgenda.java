@@ -1,7 +1,11 @@
 package services;
 
-import dataTest.HealthCardID;
+import data.HealthCardID;
 
 import exceptions.*;
 
-public interface ScheduledVisitAgenda { HealthCardID getHealthCarID() throws HealthCardException; }
+import java.util.Date;
+
+public interface ScheduledVisitAgenda {
+    HealthCardID getHealthCarID() throws HealthCardException, NullArgumentException;
+}
