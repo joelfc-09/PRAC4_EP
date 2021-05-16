@@ -20,16 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="811ca49c-78e2-4f2e-a1b6-c97c239a2502" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/medicalconsultationTest/MedicalPrescriptionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/ConsultationTerminalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/ConsultationTerminalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/servicesTest/HealthNationalServiceClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/servicesTest/HealthNationalServiceClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/ConsultationTerminal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/ConsultationTerminal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/medicalconsultation/ProductSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PRAC4_FarréGarcia/medicalconsultation/ProductSpecification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/ConsultationTerminalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/ConsultationTerminalTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/servicesTest/HealthNationalServiceClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PRAC4_FarréGarcia/servicesTest/HealthNationalServiceClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConsultationTerminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsultationTerminal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/medicalconsultation/ProductSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medicalconsultation/ProductSpecification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/medicalconsultationTest/MedicalPrescriptionTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,19 +80,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TakingGuidelineTest.nullTest">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MedicalPrescriptionLineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRAC4_FarréGarcia" />
       <extension name="coverage">
@@ -191,7 +169,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e3816fc7-7189-44e3-863b-506a47612ed2" name="Default Changelist" comment="" />
+      <changelist id="811ca49c-78e2-4f2e-a1b6-c97c239a2502" name="Default Changelist" comment="" />
       <created>1610798978645</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -201,6 +179,7 @@
       <workItem from="1610837785551" duration="599000" />
       <workItem from="1610838685971" duration="1137000" />
       <workItem from="1610873035677" duration="13789000" />
+      <workItem from="1613464066113" duration="3000" />
     </task>
     <servers />
   </component>
@@ -281,71 +260,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java</url>
-          <line>149</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java</url>
-          <line>150</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java</url>
-          <line>151</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java</url>
-          <line>153</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java</url>
-          <line>152</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java</url>
-          <line>154</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java</url>
-          <line>155</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java</url>
-          <line>156</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java</url>
-          <line>157</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java</url>
-          <line>158</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java</url>
-          <line>159</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java</url>
-          <line>160</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java</url>
-          <line>161</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Test/servicesTest/HealthNationalServiceClass.java</url>
           <line>57</line>
           <option name="timeStamp" value="37" />
@@ -362,7 +276,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java</url>
-          <line>148</line>
+          <line>161</line>
           <properties class="medicalconsultation.MedicalPrescription" method="equals">
             <option name="EMULATED" value="true" />
           </properties>
